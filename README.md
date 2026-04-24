@@ -1,6 +1,6 @@
 # What is this code?
 
-This is an implementation of the Re-Pair algorithm for research purposes. Try running it on different data :)! Still a work in progress.
+This is an implementation of the Re-Pair compression algorithm (or Byte-Pair encoding if you're a machine learn-ist), made for research purposes. Try running it on different data :)! Still a work in progress.
 
 # Class Diagram
 
