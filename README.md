@@ -17,24 +17,29 @@ classDiagram
         -vector~st~ ruleHistory
         -firstPass()
         -compress(bool)
-        -compactify()
         +run(bool)
         +output()
     }
 
     class QUEUE {
-        -vector~BUCKET*~ buckets
+        -vector~PAIRNODE*~ buckets
         +addPair(PAIR*)
         +removePair(PAIR*)
     }
 
+    class PAIRNODE {
+        +PAIR* p
+        +PAIRNODE* next
+        +PAIRNODE* prev
+    }
+
     class TSEQ {
+        <<THREADED SEQUENCE>>
         -vector~SEQ~ seq
         +next(st)
         +prev(st)
         +operator[](st)
     }
-
 
     class PAIR {
         +st left
@@ -53,9 +58,12 @@ classDiagram
         +st next
     }
 
+    %% Relationships
     Repair *-- QUEUE : owns
-    Repair *-- TSEQ : owns
-    QUEUE o-- PAIR : points to
+    Repair *-- TSEQ: owns
+    QUEUE o-- PAIRNODE : contains buckets (linked lists) of
+    PAIRNODE o-- PAIR : points to data
+    PAIR --> QUEUE : can be added to bucket
     TSEQ *-- SEQ : composed of
 ```
 
