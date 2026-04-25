@@ -4,24 +4,46 @@
 #include <string>
 #include <math.h>
 #include <unordered_map>
+#include <sstream>
 #include <chrono>
 #include "Repair.h"
 
 using namespace std;
 
-int main()
-{
-    //string input = "singing do wah diddy diddy dum diddy do";
-    //string input = "banaananaanana";
-    string input = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
-    auto start = chrono::high_resolution_clock::now();
-
-    Repair repair(input);
-    repair.run(false);
+int main(int argc, char* argv[]) {
     
-    auto end2 = chrono::high_resolution_clock::now();
-    chrono::duration<double, nano> time2 = end2 - start;
-    cout << "Time to compress: " << time2.count() / input.size() << "ns. / char\n";
+	std::string T;
+	
+	if (argc < 2)
+	{
+		std::ostringstream buffer;
+		buffer << std::cin.rdbuf();
+		T = buffer.str();
+		cout << "Read " << T.size() << "charaters. \n";
+	}
+    else
+	{
+		unsigned long max_chars = std::stoul(argv[1]);
+		
+		
+		T.resize(max_chars);
+	
+		std::cin.read(&T[0], max_chars);
+		
+		T.resize(std::cin.gcount());
+
+	}
+
+    auto start = chrono::high_resolution_clock::now();
+    cout << "Starting...\n";
+    Repair repair(T);
+    repair.run(true);
     repair.output();
+    auto end2 = chrono::high_resolution_clock::now();
+    chrono::duration<double, milli> time2 = end2 - start;
+    cout << "Time to compress: " << time2.count() << "ms.\n";
+
+    //repair.output();
     return 0;
 }
+

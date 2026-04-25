@@ -17,14 +17,21 @@ class QUEUE
 private:
     vector<PAIRNODE*> q;
 public:
+    st largest_pair_pos = 0;
     QUEUE(const string& s);
     ~QUEUE();
     void print() const;
     void addPair(PAIR* p);
     void removePair(PAIR* p);
+    PAIR* pop_max();
     size_t size() const
     {
         return q.size();
+    }
+
+    size_t empty() const
+    {
+        return q.empty();
     }
 
     PAIRNODE* operator[](size_t i) 
@@ -119,5 +126,24 @@ inline void QUEUE::removePair(PAIR* p)
     p->node = nullptr;
     delete node;
 }
+
+    inline PAIR* QUEUE::pop_max()
+    {
+        int start = (largest_pair_pos < q.size()) ? largest_pair_pos : (q.size() - 1);
+        for (int i = start; i >= 1; i--) 
+        {
+            if (q[i]->next != nullptr) 
+            {
+                this->largest_pair_pos = i;
+                PAIRNODE* node_to_pop = q[i]->next;
+                PAIR* p = node_to_pop->p;
+
+                removePair(p); 
+
+                return p;
+            }
+        }
+        return nullptr; 
+    }
 
 #endif // QUEUE_H

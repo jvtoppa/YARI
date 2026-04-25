@@ -31,17 +31,139 @@ private:
     void compactify();
     void compress(bool verbose);
     void printHashTable();
+    void removeFromOccList(PAIR* p, st pos);
     public:
     
     Repair(const string& input);
     ~Repair();
     void run(bool verbose = false)
     {
+        if(verbose) cout << "[VERBOSE] Running first pass...\n";
         firstPass();
+        if(verbose) cout << "[VERBOSE] Compressing...\n";
         compress(verbose);
+        if(verbose) cout << "[VERBOSE] Done.\n";
     }
-    void output();
+    void output(bool verbose = false);
 };
 
  
+
+inline void Repair::compactify()
+{
+    vector<SEQ> seq_new;
+
+    for (st i = 0; i < seq.size(); i++) {
+        if (seq[i].code != N) {
+            seq_new.push_back(seq[i]);
+        } 
+        else if (seq[i].next < seq.size()) { 
+            i = seq.next(i) - 1;
+        }
+    }
+
+    st newStringSize = seq_new.size();
+    st oldStringSize = seq.size();
+
+    unordered_map<st, st> posMap;
+
+    st oldPos = 0;
+    st newPos = 0;
+
+    while (oldPos < oldStringSize && newPos < newStringSize) {
+        if (seq[oldPos].code != N) {
+            posMap[oldPos] = newPos;
+            newPos++;
+        }
+        oldPos++;
+    }
+
+    for (auto& pair_entry : ht) {
+        PAIR* p = pair_entry.second;
+
+        if (posMap.count(p->f_pos))
+            p->f_pos = posMap[p->f_pos];
+
+        if (posMap.count(p->b_pos))
+            p->b_pos = posMap[p->b_pos];
+    }
+
+    for (st i = 0; i < seq_new.size(); i++) {
+        if (seq_new[i].prev != N && posMap.count(seq_new[i].prev)) {
+            seq_new[i].prev = posMap[seq_new[i].prev];
+        } else {
+            seq_new[i].prev = N;
+        }
+
+        if (seq_new[i].next != N && posMap.count(seq_new[i].next)) {
+            seq_new[i].next = posMap[seq_new[i].next];
+        } else {
+            seq_new[i].next = N;
+        }
+    }
+
+    seq = std::move(seq_new);
+}
+
+inline void Repair::printHashTable()
+{
+    for (const auto &entry : ht)
+    {
+        cout << "(" << entry.first.first << ", " << entry.first.second << ") "
+             << "-> freq: " << entry.second->freq
+             << ", f_pos: " << (entry.second->f_pos == N ? "NULL" : to_string(entry.second->f_pos))
+             << ", b_pos: " << (entry.second->b_pos == N ? "NULL" : to_string(entry.second->b_pos))
+             << endl;
+    }
+}
+
+inline void Repair::output(bool verbose)
+{
+    if(verbose)
+    {
+    cout << "\nCompressed text: ";
+    for (size_t i = 0; i < seq.size(); i++)
+    {
+        if(seq[i].code != N)
+        {
+            if(seq[i].code < 128)
+            {
+                cout << static_cast<char>(seq[i].code);
+            }
+            else
+            {
+                cout << "["  << static_cast<size_t>(seq[i].code) << "]";
+            }
+        }
+    }
+    cout << "\nRule History: ";
+    cout << ruleHistory << "\n";
+    cout << "\n";
+    }
+
+    size_t c = 0;
+    for (size_t i = 0; i < seq.size(); i++)
+    {
+        if(seq[i].code != N)
+        c++;
+    }
+    
+    cout << "\n Rule History size: " << ruleHistory.size() << "\n";
+    cout << "\n Compressed text size: " << c << "\n";
+    
+
+}   
+
+inline Repair::Repair(const std::string& input) : q(input), seq(input), rule(255){}
+
+inline Repair::~Repair()
+{
+    for (auto& kv : ht)
+    {
+        delete kv.second;
+    }
+    ht.clear();
+}
+
+
 #endif // REPAIR_H

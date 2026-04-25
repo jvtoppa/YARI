@@ -14,6 +14,8 @@ struct SEQ
     st code;
     st prev;
     st next;
+    st next_occ;
+    st prev_occ;
 };
 
 class TSEQ
@@ -59,7 +61,7 @@ inline TSEQ::TSEQ(const string& s)
     seq.resize(string_size);
     for (st i = 0; i < string_size; i++)
     {
-        seq[i].code = s[i];
+        seq[i].code = static_cast<unsigned char>(s[i]);
     }
 }
 
@@ -95,34 +97,13 @@ inline void TSEQ::printConnections() const
 }
 
 inline st TSEQ::next(st pos) {
-    if (pos >= seq.size()) return N;
-    st current = pos + 1;
-    while (current < seq.size() && seq[current].code == N)
-    {
-        if (seq[current].next == N) return N;
-        current = seq[current].next;
-    }
-
-    if (pos + 1 < seq.size() && seq[pos + 1].code == N) {
-        seq[pos + 1].next = current;
-    }
-    return current;
+    if (pos == N || pos >= seq.size()) return N;
+    return seq[pos].next;
 }
 
-inline st TSEQ::prev(st pos)
-{
-    if (pos == 0) return N;
-    
-    st current = pos - 1;
-    
-    while (current < seq.size() && seq[current].code == N)
-    {
-        if (seq[current].prev == N) return N;
-    
-        current = seq[current].prev;
-    }
-    
-    return current;
+inline st TSEQ::prev(st pos) {
+    if (pos == N || pos >= seq.size()) return N;
+    return seq[pos].prev; 
 }
 
 #endif // SEQUENCE_H

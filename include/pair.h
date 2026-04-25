@@ -16,7 +16,6 @@ using namespace std;
 
 struct PAIRNODE;
 
-
 struct PAIR
 {
     st left;
@@ -42,6 +41,7 @@ struct PAIRNODE
     PAIR *p;
     PAIRNODE *next;
     PAIRNODE *prev;
+    
 };
 
 struct PairHash
