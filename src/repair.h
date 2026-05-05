@@ -45,6 +45,8 @@ private:
         if(verbose) cout << "[VERBOSE] Done.\n";
     }
     void output(bool verbose = false);
+
+  void print();
 };
 
  

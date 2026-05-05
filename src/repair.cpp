@@ -5,13 +5,33 @@
 #include <string>
 #include <math.h>
 #include <unordered_map>
-#include "Repair.h"
+#include "repair.h"
 
 using namespace std;
 
 
+
+void Repair::print() {
+
+  cout << "Hashtable\n";
+  printHashTable();
+  cout << "\n";
+  
+  cout << "Queue\n";
+  q.print();
+  cout << "\n";
+
+  cout << "Sequence\n";
+ seq.printConnections();
+}
+
+
 void Repair::insert(PAIR* p, st current_position)
 {
+
+
+  cout << "  inser pair " << p->left << " " << p->right << "\n";
+  
     auto key = make_pair(p->left, p->right);
     auto it = ht.find(key);
 
@@ -59,6 +79,10 @@ void Repair::firstPass()
         new_pair->right = seq[i+1].code;
         insert(new_pair, i); 
     }
+
+
+    print();
+    
 }
 
 
@@ -98,6 +122,10 @@ void Repair::decreaseAdjToPair(st pos) {
 
 void Repair::replace(st position)
 {
+
+  cout << "  replace " << position << "\n";
+
+  
     st pos_next = seq[position].next; 
     if (pos_next == N) return;
     st L = seq[position].prev;
@@ -126,6 +154,9 @@ void Repair::replace(st position)
 
 void Repair::compress(bool verbose)
 {
+
+  long contador = 1;
+  
     while (!q.empty())
     {
         PAIR* mostFreqPair = q.pop_max();
@@ -155,6 +186,12 @@ void Repair::compress(bool verbose)
   
     
     this->ruleHistory = ruleHistory;
+
+
+    cout << "\nRound " << contador << "\n";
+    contador++;
+    print();
+    
     }
 
 }
