@@ -6,7 +6,7 @@
 #include <unordered_map>
 #include <sstream>
 #include <chrono>
-#include "Repair.h"
+#include "repair.h"
 
 using namespace std;
 
@@ -38,7 +38,7 @@ int main(int argc, char* argv[]) {
     cout << "Starting...\n";
     Repair repair(T);
     repair.run(true);
-    repair.output();
+    repair.output(true);
     auto end2 = chrono::high_resolution_clock::now();
     chrono::duration<double, milli> time2 = end2 - start;
     cout << "Time to compress: " << time2.count() << "ms.\n";
