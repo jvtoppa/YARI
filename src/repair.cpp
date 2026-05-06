@@ -30,7 +30,7 @@ void Repair::insert(PAIR* p, st current_position)
 {
 
 
-  cout << "  inser pair " << p->left << " " << p->right << "\n";
+ // cout << " insert pair " << p->left << " " << p->right << "\n";
   
     auto key = make_pair(p->left, p->right);
     auto it = ht.find(key);
@@ -39,13 +39,22 @@ void Repair::insert(PAIR* p, st current_position)
     {
         p->f_pos = current_position;
         seq[current_position].next_occ = N;
+        seq[current_position].prev_occ = N;
         ht[key] = p;
     } 
     else 
     {
         PAIR* existing = it->second;
-        
         seq[current_position].next_occ = existing->f_pos;
+        seq[current_position].prev_occ = N;
+        
+        if (existing->f_pos != N)
+        {
+            seq[existing->f_pos].prev_occ = current_position;
+        }
+        
+        
+
         existing->f_pos = current_position;
 
         existing->freq++;
@@ -59,7 +68,7 @@ void Repair::insert(PAIR* p, st current_position)
     }
 }
 
-void Repair::firstPass() 
+void Repair::firstPass(bool verbose) 
 {
     st string_size = seq.size();
     if (string_size < 2) return;
@@ -80,13 +89,13 @@ void Repair::firstPass()
         insert(new_pair, i); 
     }
 
-
+    if(verbose)
     print();
     
 }
 
 
-void Repair::decreaseAdjToPair(st pos) {
+void Repair::decrease(st pos) {
     if (pos == N || seq[pos].code == N) return;
     st next_idx = seq[pos].next;
     if (next_idx == N || seq[next_idx].code == N) return;
@@ -123,42 +132,50 @@ void Repair::decreaseAdjToPair(st pos) {
 void Repair::replace(st position)
 {
 
-  cout << "  replace " << position << "\n";
+   // cout << "replace " << position << "\n";
 
-  
     st pos_next = seq[position].next; 
-    if (pos_next == N) return;
+    if (pos_next == N)
+    {
+    cout << "You should never see this. \n";
+      return;  
+    } 
+    
     st L = seq[position].prev;
+    st R = seq[pos_next].next; 
+    if (L != N) decrease(L);         
+    decrease(position);              
+    if (R != N) decrease(pos_next);  
 
-    if (L != N) decreaseAdjToPair(L);         
-    if (pos_next != N) decreaseAdjToPair(pos_next);
+    seq[position].next = R;
+    if (R != N) {
+        seq[R].prev = position;
+    }
 
-    seq[position].next = pos_next;
-    
-    if (pos_next != N) seq[pos_next].prev = position;
+    seq[position].code = this->rule;
 
-    seq[position].code = this->rule; 
-    
-    seq[pos_next].code = N; 
+    seq[pos_next].code = N;
     seq[pos_next].next = N;
     seq[pos_next].prev = N;
-    seq[pos_next].next_occ = N;
 
-    if (L != N && seq[L].code != N) {
-        insert(new PAIR{ seq[L].code, this->rule }, L);
+    if (L != N) {
+        insert(new PAIR{ seq[L].code, seq[position].code }, L);
     }
-    if (pos_next != N && seq[pos_next].code != N) {
-        insert(new PAIR{ this->rule, seq[pos_next].code }, position);
+    if (R != N) {
+        insert(new PAIR{ seq[position].code, seq[R].code }, position);
     }
 }
 
 void Repair::compress(bool verbose)
 {
 
-  long contador = 1;
+  long ctr = 1;
   
     while (!q.empty())
     {
+        if(verbose)
+        cout << "\nRound " << ctr << "\n";
+    
         PAIR* mostFreqPair = q.pop_max();
         if(!mostFreqPair || mostFreqPair->freq < 2) break;
 
@@ -188,8 +205,8 @@ void Repair::compress(bool verbose)
     this->ruleHistory = ruleHistory;
 
 
-    cout << "\nRound " << contador << "\n";
-    contador++;
+    ctr++;
+    if(verbose)
     print();
     
     }

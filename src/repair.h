@@ -24,10 +24,10 @@ private:
     vector<st> ruleHistory;
 
     void findAdjPairs(vector<st>& pairPos, st position);
-    void decreaseAdjToPair(st pos);
+    void decrease(st pos);
     void replace(st position);
     void insert(PAIR* p, st current_position);
-    void firstPass();
+    void firstPass(bool verbose);
     void compactify();
     void compress(bool verbose);
     void printHashTable();
@@ -36,12 +36,12 @@ private:
     
     Repair(const string& input);
     ~Repair();
-    void run(bool verbose = false)
+    void run(bool verbose = false, bool verbose2 = false)
     {
         if(verbose) cout << "[VERBOSE] Running first pass...\n";
-        firstPass();
+        firstPass(verbose2);
         if(verbose) cout << "[VERBOSE] Compressing...\n";
-        compress(verbose);
+        compress(verbose2);
         if(verbose) cout << "[VERBOSE] Done.\n";
     }
     void output(bool verbose = false);

@@ -33,14 +33,14 @@ int main(int argc, char* argv[]) {
 		T.resize(std::cin.gcount());
 
 	}
-
-    auto start = chrono::high_resolution_clock::now();
+	
     cout << "Starting...\n";
+    auto start = chrono::high_resolution_clock::now();
     Repair repair(T);
-    repair.run(true);
-    repair.output(true);
+    repair.run(true,false);
     auto end2 = chrono::high_resolution_clock::now();
     chrono::duration<double, milli> time2 = end2 - start;
+    repair.output(false);
     cout << "Time to compress: " << time2.count() << "ms.\n";
 
     //repair.output();

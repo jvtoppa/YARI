@@ -87,12 +87,14 @@ inline void TSEQ::printConnections() const
         }
         if (seq[i].code == N)
         {
-            cout << ", Prev. Thread: " << printIndex(seq[i].prev) << "\n";
+            cout << ", Prev. Thread: " << printIndex(seq[i].prev);
         }
         else
         {
-            cout << ", Prev: " << printIndex(seq[i].prev) << "\n";
+            cout << ", Prev: " << printIndex(seq[i].prev);
         }
+
+        cout << ", Next Occ.:" << printIndex(seq[i].next_occ) << ", Prev Occ.:" << printIndex(seq[i].prev_occ)<< "\n";
     }
 }
 

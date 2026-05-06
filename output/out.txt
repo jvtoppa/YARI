@@ -1,0 +1,1002 @@
+Read 720charaters. 
+Starting...
+Hashtable
+(10, 10) -> freq: 1, f_pos: 718, b_pos: NULL
+(10, 109) -> freq: 1, f_pos: 682, b_pos: NULL
+(100, 45) -> freq: 1, f_pos: 642, b_pos: NULL
+(110, 118) -> freq: 1, f_pos: 625, b_pos: NULL
+(111, 10) -> freq: 1, f_pos: 610, b_pos: NULL
+(84, 111) -> freq: 1, f_pos: 609, b_pos: NULL
+(10, 102) -> freq: 1, f_pos: 611, b_pos: NULL
+(32, 115) -> freq: 2, f_pos: 711, b_pos: NULL
+(108, 118) -> freq: 1, f_pos: 580, b_pos: NULL
+(101, 109) -> freq: 2, f_pos: 669, b_pos: NULL
+(99, 46) -> freq: 1, f_pos: 559, b_pos: NULL
+(115, 10) -> freq: 1, f_pos: 544, b_pos: NULL
+(32, 110) -> freq: 2, f_pos: 535, b_pos: NULL
+(65, 32) -> freq: 1, f_pos: 471, b_pos: NULL
+(102, 10) -> freq: 1, f_pos: 481, b_pos: NULL
+(50, 32) -> freq: 1, f_pos: 457, b_pos: NULL
+(55, 50) -> freq: 1, f_pos: 456, b_pos: NULL
+(45, 55) -> freq: 1, f_pos: 455, b_pos: NULL
+(48, 45) -> freq: 1, f_pos: 454, b_pos: NULL
+(55, 48) -> freq: 1, f_pos: 453, b_pos: NULL
+(10, 34) -> freq: 1, f_pos: 545, b_pos: NULL
+(32, 55) -> freq: 1, f_pos: 452, b_pos: NULL
+(32, 108) -> freq: 2, f_pos: 699, b_pos: NULL
+(32, 32) -> freq: 1, f_pos: 436, b_pos: NULL
+(34, 46) -> freq: 1, f_pos: 434, b_pos: NULL
+(95, 34) -> freq: 1, f_pos: 433, b_pos: NULL
+(116, 116) -> freq: 1, f_pos: 667, b_pos: NULL
+(34, 95) -> freq: 1, f_pos: 432, b_pos: NULL
+(32, 34) -> freq: 1, f_pos: 431, b_pos: NULL
+(114, 32) -> freq: 4, f_pos: 541, b_pos: NULL
+(112, 114) -> freq: 1, f_pos: 644, b_pos: NULL
+(70, 105) -> freq: 1, f_pos: 566, b_pos: NULL
+(114, 115) -> freq: 3, f_pos: 628, b_pos: NULL
+(10, 117) -> freq: 1, f_pos: 410, b_pos: NULL
+(99, 32) -> freq: 1, f_pos: 395, b_pos: NULL
+(101, 46) -> freq: 2, f_pos: 716, b_pos: NULL
+(121, 32) -> freq: 2, f_pos: 534, b_pos: NULL
+(32, 104) -> freq: 2, f_pos: 673, b_pos: NULL
+(32, 109) -> freq: 1, f_pos: 328, b_pos: NULL
+(76, 105) -> freq: 2, f_pos: 438, b_pos: NULL
+(99, 34) -> freq: 1, f_pos: 553, b_pos: NULL
+(103, 32) -> freq: 3, f_pos: 653, b_pos: NULL
+(112, 104) -> freq: 2, f_pos: 550, b_pos: NULL
+(110, 103) -> freq: 4, f_pos: 652, b_pos: NULL
+(99, 99) -> freq: 1, f_pos: 493, b_pos: NULL
+(119, 105) -> freq: 3, f_pos: 705, b_pos: NULL
+(102, 105) -> freq: 1, f_pos: 603, b_pos: NULL
+(108, 108) -> freq: 1, f_pos: 291, b_pos: NULL
+(32, 112) -> freq: 1, f_pos: 260, b_pos: NULL
+(114, 114) -> freq: 2, f_pos: 525, b_pos: NULL
+(114, 111) -> freq: 1, f_pos: 645, b_pos: NULL
+(32, 70) -> freq: 1, f_pos: 565, b_pos: NULL
+(34, 71) -> freq: 1, f_pos: 546, b_pos: NULL
+(102, 101) -> freq: 2, f_pos: 523, b_pos: NULL
+(10, 103) -> freq: 1, f_pos: 482, b_pos: NULL
+(32, 114) -> freq: 2, f_pos: 520, b_pos: NULL
+(110, 32) -> freq: 8, f_pos: 664, b_pos: NULL
+(111, 108) -> freq: 1, f_pos: 290, b_pos: NULL
+(105, 111) -> freq: 2, f_pos: 630, b_pos: NULL
+(114, 97) -> freq: 8, f_pos: 598, b_pos: NULL
+(110, 111) -> freq: 2, f_pos: 148, b_pos: NULL
+(111, 110) -> freq: 3, f_pos: 631, b_pos: NULL
+(99, 104) -> freq: 6, f_pos: 697, b_pos: NULL
+(116, 32) -> freq: 6, f_pos: 672, b_pos: NULL
+(32, 99) -> freq: 6, f_pos: 622, b_pos: NULL
+(110, 49) -> freq: 1, f_pos: 55, b_pos: NULL
+(109, 115) -> freq: 1, f_pos: 577, b_pos: NULL
+(111, 114) -> freq: 4, f_pos: 656, b_pos: NULL
+(99, 116) -> freq: 5, f_pos: 464, b_pos: NULL
+(76, 97) -> freq: 1, f_pos: 51, b_pos: NULL
+(79, 32) -> freq: 1, f_pos: 42, b_pos: NULL
+(32, 76) -> freq: 3, f_pos: 437, b_pos: NULL
+(102, 111) -> freq: 4, f_pos: 655, b_pos: NULL
+(114, 101) -> freq: 11, f_pos: 586, b_pos: NULL
+(49, 32) -> freq: 2, f_pos: 56, b_pos: NULL
+(101, 10) -> freq: 2, f_pos: 409, b_pos: NULL
+(45, 49) -> freq: 1, f_pos: 48, b_pos: NULL
+(32, 119) -> freq: 4, f_pos: 704, b_pos: NULL
+(57, 49) -> freq: 1, f_pos: 46, b_pos: NULL
+(101, 112) -> freq: 1, f_pos: 595, b_pos: NULL
+(99, 115) -> freq: 2, f_pos: 489, b_pos: NULL
+(97, 114) -> freq: 9, f_pos: 597, b_pos: NULL
+(87, 105) -> freq: 1, f_pos: 73, b_pos: NULL
+(56, 57) -> freq: 1, f_pos: 45, b_pos: NULL
+(45, 112) -> freq: 1, f_pos: 643, b_pos: NULL
+(83, 79) -> freq: 1, f_pos: 41, b_pos: NULL
+(73, 83) -> freq: 1, f_pos: 40, b_pos: NULL
+(32, 40) -> freq: 1, f_pos: 71, b_pos: NULL
+(101, 32) -> freq: 25, f_pos: 703, b_pos: NULL
+(102, 97) -> freq: 1, f_pos: 612, b_pos: NULL
+(110, 101) -> freq: 2, f_pos: 702, b_pos: NULL
+(116, 104) -> freq: 15, f_pos: 707, b_pos: NULL
+(32, 65) -> freq: 2, f_pos: 470, b_pos: NULL
+(104, 101) -> freq: 15, f_pos: 575, b_pos: NULL
+(10, 84) -> freq: 1, f_pos: 139, b_pos: NULL
+(10, 97) -> freq: 1, f_pos: 345, b_pos: NULL
+(32, 116) -> freq: 19, f_pos: 687, b_pos: NULL
+(115, 112) -> freq: 1, f_pos: 712, b_pos: NULL
+(117, 115) -> freq: 2, f_pos: 322, b_pos: NULL
+(118, 101) -> freq: 3, f_pos: 626, b_pos: NULL
+(32, 78) -> freq: 2, f_pos: 213, b_pos: NULL
+(98, 111) -> freq: 2, f_pos: 303, b_pos: NULL
+(116, 46) -> freq: 1, f_pos: 311, b_pos: NULL
+(104, 32) -> freq: 5, f_pos: 708, b_pos: NULL
+(105, 103) -> freq: 1, f_pos: 567, b_pos: NULL
+(97, 99) -> freq: 9, f_pos: 714, b_pos: NULL
+(109, 101) -> freq: 1, f_pos: 26, b_pos: NULL
+(101, 97) -> freq: 2, f_pos: 695, b_pos: NULL
+(119, 104) -> freq: 1, f_pos: 195, b_pos: NULL
+(116, 99) -> freq: 1, f_pos: 558, b_pos: NULL
+(108, 111) -> freq: 1, f_pos: 292, b_pos: NULL
+(112, 97) -> freq: 3, f_pos: 713, b_pos: NULL
+(32, 73) -> freq: 1, f_pos: 39, b_pos: NULL
+(111, 46) -> freq: 1, f_pos: 215, b_pos: NULL
+(115, 32) -> freq: 12, f_pos: 676, b_pos: NULL
+(114, 39) -> freq: 1, f_pos: 7, b_pos: NULL
+(99, 108) -> freq: 1, f_pos: 160, b_pos: NULL
+(101, 58) -> freq: 1, f_pos: 14, b_pos: NULL
+(98, 121) -> freq: 2, f_pos: 533, b_pos: NULL
+(78, 111) -> freq: 2, f_pos: 214, b_pos: NULL
+(120, 116) -> freq: 5, f_pos: 507, b_pos: NULL
+(112, 112) -> freq: 3, f_pos: 279, b_pos: NULL
+(116, 105) -> freq: 3, f_pos: 385, b_pos: NULL
+(100, 97) -> freq: 1, f_pos: 2, b_pos: NULL
+(110, 100) -> freq: 11, f_pos: 692, b_pos: NULL
+(108, 101) -> freq: 3, f_pos: 605, b_pos: NULL
+(49, 45) -> freq: 1, f_pos: 47, b_pos: NULL
+(32, 101) -> freq: 5, f_pos: 694, b_pos: NULL
+(97, 116) -> freq: 7, f_pos: 666, b_pos: NULL
+(99, 117) -> freq: 2, f_pos: 494, b_pos: NULL
+(111, 115) -> freq: 1, f_pos: 99, b_pos: NULL
+(32, 56) -> freq: 1, f_pos: 43, b_pos: NULL
+(104, 97) -> freq: 6, f_pos: 674, b_pos: NULL
+(116, 111) -> freq: 5, f_pos: 688, b_pos: NULL
+(107, 32) -> freq: 2, f_pos: 306, b_pos: NULL
+(115, 44) -> freq: 3, f_pos: 343, b_pos: NULL
+(82, 101) -> freq: 1, f_pos: 0, b_pos: NULL
+(112, 116) -> freq: 2, f_pos: 671, b_pos: NULL
+(56, 56) -> freq: 1, f_pos: 44, b_pos: NULL
+(103, 114) -> freq: 1, f_pos: 483, b_pos: NULL
+(101, 115) -> freq: 12, f_pos: 648, b_pos: NULL
+(108, 105) -> freq: 4, f_pos: 700, b_pos: NULL
+(116, 101) -> freq: 16, f_pos: 668, b_pos: NULL
+(110, 117) -> freq: 2, f_pos: 536, b_pos: NULL
+(84, 104) -> freq: 4, f_pos: 562, b_pos: NULL
+(97, 115) -> freq: 2, f_pos: 675, b_pos: NULL
+(111, 116) -> freq: 5, f_pos: 149, b_pos: NULL
+(115, 99) -> freq: 1, f_pos: 416, b_pos: NULL
+(99, 107) -> freq: 1, f_pos: 382, b_pos: NULL
+(105, 110) -> freq: 13, f_pos: 701, b_pos: NULL
+(111, 109) -> freq: 1, f_pos: 96, b_pos: NULL
+(110, 10) -> freq: 1, f_pos: 681, b_pos: NULL
+(34, 44) -> freq: 1, f_pos: 554, b_pos: NULL
+(58, 32) -> freq: 1, f_pos: 15, b_pos: NULL
+(32, 84) -> freq: 4, f_pos: 608, b_pos: NULL
+(10, 65) -> freq: 1, f_pos: 204, b_pos: NULL
+(114, 100) -> freq: 1, f_pos: 641, b_pos: NULL
+(104, 105) -> freq: 4, f_pos: 551, b_pos: NULL
+(100, 111) -> freq: 2, f_pos: 76, b_pos: NULL
+(112, 101) -> freq: 3, f_pos: 280, b_pos: NULL
+(32, 117) -> freq: 2, f_pos: 321, b_pos: NULL
+(103, 116) -> freq: 1, f_pos: 446, b_pos: NULL
+(105, 115) -> freq: 4, f_pos: 450, b_pos: NULL
+(105, 98) -> freq: 1, f_pos: 315, b_pos: NULL
+(101, 100) -> freq: 6, f_pos: 527, b_pos: NULL
+(32, 100) -> freq: 1, f_pos: 21, b_pos: NULL
+(119, 111) -> freq: 1, f_pos: 639, b_pos: NULL
+(109, 98) -> freq: 2, f_pos: 538, b_pos: NULL
+(117, 110) -> freq: 1, f_pos: 411, b_pos: NULL
+(97, 100) -> freq: 2, f_pos: 684, b_pos: NULL
+(101, 102) -> freq: 2, f_pos: 522, b_pos: NULL
+(111, 99) -> freq: 3, f_pos: 646, b_pos: NULL
+(99, 101) -> freq: 4, f_pos: 715, b_pos: NULL
+(114, 44) -> freq: 1, f_pos: 192, b_pos: NULL
+(101, 101) -> freq: 2, f_pos: 679, b_pos: NULL
+(109, 97) -> freq: 3, f_pos: 683, b_pos: NULL
+(117, 109) -> freq: 3, f_pos: 537, b_pos: NULL
+(105, 99) -> freq: 7, f_pos: 552, b_pos: NULL
+(97, 108) -> freq: 3, f_pos: 392, b_pos: NULL
+(115, 101) -> freq: 9, f_pos: 594, b_pos: NULL
+(101, 110) -> freq: 10, f_pos: 691, b_pos: NULL
+(111, 107) -> freq: 2, f_pos: 305, b_pos: NULL
+(46, 10) -> freq: 2, f_pos: 717, b_pos: NULL
+(39, 115) -> freq: 1, f_pos: 8, b_pos: NULL
+(98, 114) -> freq: 1, f_pos: 379, b_pos: NULL
+(32, 83) -> freq: 1, f_pos: 221, b_pos: NULL
+(110, 116) -> freq: 2, f_pos: 265, b_pos: NULL
+(40, 87) -> freq: 1, f_pos: 72, b_pos: NULL
+(108, 117) -> freq: 1, f_pos: 161, b_pos: NULL
+(105, 116) -> freq: 5, f_pos: 706, b_pos: NULL
+(101, 114) -> freq: 11, f_pos: 627, b_pos: NULL
+(111, 119) -> freq: 2, f_pos: 293, b_pos: NULL
+(97, 112) -> freq: 4, f_pos: 549, b_pos: NULL
+(114, 10) -> freq: 1, f_pos: 66, b_pos: NULL
+(10, 115) -> freq: 1, f_pos: 67, b_pos: NULL
+(32, 102) -> freq: 5, f_pos: 654, b_pos: NULL
+(103, 117) -> freq: 1, f_pos: 568, b_pos: NULL
+(97, 118) -> freq: 1, f_pos: 357, b_pos: NULL
+(101, 116) -> freq: 3, f_pos: 557, b_pos: NULL
+(109, 112) -> freq: 2, f_pos: 670, b_pos: NULL
+(117, 114) -> freq: 2, f_pos: 569, b_pos: NULL
+(119, 115) -> freq: 1, f_pos: 78, b_pos: NULL
+(97, 32) -> freq: 3, f_pos: 710, b_pos: NULL
+(115, 41) -> freq: 1, f_pos: 79, b_pos: NULL
+(41, 46) -> freq: 1, f_pos: 80, b_pos: NULL
+(46, 32) -> freq: 7, f_pos: 607, b_pos: NULL
+(32, 98) -> freq: 7, f_pos: 677, b_pos: NULL
+(99, 105) -> freq: 1, f_pos: 614, b_pos: NULL
+(111, 111) -> freq: 4, f_pos: 304, b_pos: NULL
+(105, 108) -> freq: 3, f_pos: 615, b_pos: NULL
+(32, 105) -> freq: 11, f_pos: 588, b_pos: NULL
+(101, 108) -> freq: 1, f_pos: 579, b_pos: NULL
+(99, 111) -> freq: 3, f_pos: 623, b_pos: NULL
+(97, 110) -> freq: 4, f_pos: 663, b_pos: NULL
+(117, 100) -> freq: 1, f_pos: 162, b_pos: NULL
+(111, 32) -> freq: 4, f_pos: 689, b_pos: NULL
+(115, 46) -> freq: 2, f_pos: 468, b_pos: NULL
+(112, 111) -> freq: 1, f_pos: 98, b_pos: NULL
+(100, 101) -> freq: 4, f_pos: 685, b_pos: NULL
+(100, 32) -> freq: 10, f_pos: 693, b_pos: NULL
+(71, 114) -> freq: 1, f_pos: 547, b_pos: NULL
+(101, 99) -> freq: 1, f_pos: 223, b_pos: NULL
+(111, 102) -> freq: 4, f_pos: 480, b_pos: NULL
+(32, 111) -> freq: 5, f_pos: 491, b_pos: NULL
+(102, 32) -> freq: 3, f_pos: 335, b_pos: NULL
+(115, 115) -> freq: 1, f_pos: 649, b_pos: NULL
+(101, 120) -> freq: 5, f_pos: 506, b_pos: NULL
+(108, 32) -> freq: 1, f_pos: 320, b_pos: NULL
+(116, 44) -> freq: 3, f_pos: 660, b_pos: NULL
+(44, 32) -> freq: 6, f_pos: 661, b_pos: NULL
+(114, 109) -> freq: 1, f_pos: 657, b_pos: NULL
+(98, 101) -> freq: 5, f_pos: 678, b_pos: NULL
+(116, 110) -> freq: 2, f_pos: 147, b_pos: NULL
+(110, 99) -> freq: 1, f_pos: 159, b_pos: NULL
+(10, 116) -> freq: 1, f_pos: 273, b_pos: NULL
+(32, 97) -> freq: 14, f_pos: 709, b_pos: NULL
+(116, 97) -> freq: 3, f_pos: 618, b_pos: NULL
+(100, 105) -> freq: 4, f_pos: 368, b_pos: NULL
+(115, 105) -> freq: 2, f_pos: 650, b_pos: NULL
+(107, 101) -> freq: 1, f_pos: 383, b_pos: NULL
+(99, 97) -> freq: 1, f_pos: 370, b_pos: NULL
+(65, 112) -> freq: 2, f_pos: 278, b_pos: NULL
+(83, 101) -> freq: 1, f_pos: 222, b_pos: NULL
+(105, 120) -> freq: 1, f_pos: 211, b_pos: NULL
+(44, 10) -> freq: 2, f_pos: 344, b_pos: NULL
+(120, 32) -> freq: 1, f_pos: 212, b_pos: NULL
+
+Queue
+Bucket[0]: 
+Bucket[1]: 
+Bucket[2]: (4610:2) (10146:2) (32115:2) (110101:2) (32108:2) (10197:2) (97100:2) (101101:2) (97115:2) (32104:2) (112116:2) (109112:2) (101109:2) (115105:2) (105111:2) (117114:2) (112104:2) (10998:2) (110117:2) (32110:2) (12132:2) (98121:2) (114114:2) (102101:2) (101102:2) (32114:2) (99117:2) (99115:2) (3265:2) (11546:2) (76105:2) (10110:2) (4410:2) (117115:2) (32117:2) (10732:2) (111107:2) (98111:2) (111119:2) (65112:2) (110116:2) (78111:2) (3278:2) (110111:2) (116110:2) (100111:2) (4932:2) 
+Bucket[3]: (11297:3) (9732:3) (119105:3) (10997:3) (11644:3) (10332:3) (11199:3) (111110:3) (114115:3) (118101:3) (99111:3) (11697:3) (105108:3) (108101:3) (101116:3) (117109:3) (3276:3) (97108:3) (116105:3) (11544:3) (10232:3) (112101:3) (112112:3) 
+Bucket[4]: (99101:4) (32119:4) (108105:4) (11132:4) (100101:4) (97110:4) (111114:4) (102111:4) (110103:4) (3284:4) (84104:4) (104105:4) (97112:4) (11432:4) (111102:4) (105115:4) (100105:4) (111111:4) 
+Bucket[5]: (10432:5) (105116:5) (32101:5) (116111:5) (98101:5) (32102:5) (120116:5) (101120:5) (32111:5) (99116:5) (111116:5) 
+Bucket[6]: (99104:6) (10497:6) (11632:6) (4432:6) (3299:6) (101100:6) 
+Bucket[7]: (3298:7) (97116:7) (4632:7) (10599:7) 
+Bucket[8]: (11032:8) (11497:8) 
+Bucket[9]: (9799:9) (97114:9) (115101:9) 
+Bucket[10]: (10032:10) (101110:10) 
+Bucket[11]: (110100:11) (101114:11) (32105:11) (114101:11) 
+Bucket[12]: (11532:12) (101115:12) 
+Bucket[13]: (105110:13) 
+Bucket[14]: (3297:14) 
+Bucket[15]: (116104:15) (104101:15) 
+Bucket[16]: (116101:16) 
+Bucket[17]: 
+Bucket[18]: 
+Bucket[19]: (32116:19) 
+Bucket[20]: 
+Bucket[21]: 
+Bucket[22]: 
+Bucket[23]: 
+Bucket[24]: 
+Bucket[25]: (10132:25) 
+Bucket[26]: 
+Bucket[27]: 
+
+Sequence
+SEQ 0 (code: 82) -> Next: 1, Prev: NULL, Next Occ.:NULL
+SEQ 1 (code: 101) -> Next: 2, Prev: 0, Next Occ.:NULL
+SEQ 2 (code: 100) -> Next: 3, Prev: 1, Next Occ.:NULL
+SEQ 3 (code: 97) -> Next: 4, Prev: 2, Next Occ.:NULL
+SEQ 4 (code: 99) -> Next: 5, Prev: 3, Next Occ.:NULL
+SEQ 5 (code: 116) -> Next: 6, Prev: 4, Next Occ.:NULL
+SEQ 6 (code: 111) -> Next: 7, Prev: 5, Next Occ.:NULL
+SEQ 7 (code: 114) -> Next: 8, Prev: 6, Next Occ.:NULL
+SEQ 8 (code: 39) -> Next: 9, Prev: 7, Next Occ.:NULL
+SEQ 9 (code: 115) -> Next: 10, Prev: 8, Next Occ.:NULL
+SEQ 10 (code: 32) -> Next: 11, Prev: 9, Next Occ.:NULL
+SEQ 11 (code: 78) -> Next: 12, Prev: 10, Next Occ.:NULL
+SEQ 12 (code: 111) -> Next: 13, Prev: 11, Next Occ.:NULL
+SEQ 13 (code: 116) -> Next: 14, Prev: 12, Next Occ.:NULL
+SEQ 14 (code: 101) -> Next: 15, Prev: 13, Next Occ.:NULL
+SEQ 15 (code: 58) -> Next: 16, Prev: 14, Next Occ.:NULL
+SEQ 16 (code: 32) -> Next: 17, Prev: 15, Next Occ.:NULL
+SEQ 17 (code: 84) -> Next: 18, Prev: 16, Next Occ.:NULL
+SEQ 18 (code: 104) -> Next: 19, Prev: 17, Next Occ.:NULL
+SEQ 19 (code: 105) -> Next: 20, Prev: 18, Next Occ.:NULL
+SEQ 20 (code: 115) -> Next: 21, Prev: 19, Next Occ.:9
+SEQ 21 (code: 32) -> Next: 22, Prev: 20, Next Occ.:NULL
+SEQ 22 (code: 100) -> Next: 23, Prev: 21, Next Occ.:NULL
+SEQ 23 (code: 111) -> Next: 24, Prev: 22, Next Occ.:NULL
+SEQ 24 (code: 99) -> Next: 25, Prev: 23, Next Occ.:NULL
+SEQ 25 (code: 117) -> Next: 26, Prev: 24, Next Occ.:NULL
+SEQ 26 (code: 109) -> Next: 27, Prev: 25, Next Occ.:NULL
+SEQ 27 (code: 101) -> Next: 28, Prev: 26, Next Occ.:NULL
+SEQ 28 (code: 110) -> Next: 29, Prev: 27, Next Occ.:NULL
+SEQ 29 (code: 116) -> Next: 30, Prev: 28, Next Occ.:NULL
+SEQ 30 (code: 32) -> Next: 31, Prev: 29, Next Occ.:NULL
+SEQ 31 (code: 117) -> Next: 32, Prev: 30, Next Occ.:NULL
+SEQ 32 (code: 115) -> Next: 33, Prev: 31, Next Occ.:NULL
+SEQ 33 (code: 101) -> Next: 34, Prev: 32, Next Occ.:NULL
+SEQ 34 (code: 115) -> Next: 35, Prev: 33, Next Occ.:20
+SEQ 35 (code: 32) -> Next: 36, Prev: 34, Next Occ.:NULL
+SEQ 36 (code: 116) -> Next: 37, Prev: 35, Next Occ.:NULL
+SEQ 37 (code: 104) -> Next: 38, Prev: 36, Next Occ.:NULL
+SEQ 38 (code: 101) -> Next: 39, Prev: 37, Next Occ.:NULL
+SEQ 39 (code: 32) -> Next: 40, Prev: 38, Next Occ.:NULL
+SEQ 40 (code: 73) -> Next: 41, Prev: 39, Next Occ.:NULL
+SEQ 41 (code: 83) -> Next: 42, Prev: 40, Next Occ.:NULL
+SEQ 42 (code: 79) -> Next: 43, Prev: 41, Next Occ.:NULL
+SEQ 43 (code: 32) -> Next: 44, Prev: 42, Next Occ.:NULL
+SEQ 44 (code: 56) -> Next: 45, Prev: 43, Next Occ.:NULL
+SEQ 45 (code: 56) -> Next: 46, Prev: 44, Next Occ.:NULL
+SEQ 46 (code: 57) -> Next: 47, Prev: 45, Next Occ.:NULL
+SEQ 47 (code: 49) -> Next: 48, Prev: 46, Next Occ.:NULL
+SEQ 48 (code: 45) -> Next: 49, Prev: 47, Next Occ.:NULL
+SEQ 49 (code: 49) -> Next: 50, Prev: 48, Next Occ.:NULL
+SEQ 50 (code: 32) -> Next: 51, Prev: 49, Next Occ.:NULL
+SEQ 51 (code: 76) -> Next: 52, Prev: 50, Next Occ.:NULL
+SEQ 52 (code: 97) -> Next: 53, Prev: 51, Next Occ.:NULL
+SEQ 53 (code: 116) -> Next: 54, Prev: 52, Next Occ.:NULL
+SEQ 54 (code: 105) -> Next: 55, Prev: 53, Next Occ.:NULL
+SEQ 55 (code: 110) -> Next: 56, Prev: 54, Next Occ.:NULL
+SEQ 56 (code: 49) -> Next: 57, Prev: 55, Next Occ.:49
+SEQ 57 (code: 32) -> Next: 58, Prev: 56, Next Occ.:NULL
+SEQ 58 (code: 99) -> Next: 59, Prev: 57, Next Occ.:NULL
+SEQ 59 (code: 104) -> Next: 60, Prev: 58, Next Occ.:NULL
+SEQ 60 (code: 97) -> Next: 61, Prev: 59, Next Occ.:NULL
+SEQ 61 (code: 114) -> Next: 62, Prev: 60, Next Occ.:NULL
+SEQ 62 (code: 97) -> Next: 63, Prev: 61, Next Occ.:3
+SEQ 63 (code: 99) -> Next: 64, Prev: 62, Next Occ.:4
+SEQ 64 (code: 116) -> Next: 65, Prev: 63, Next Occ.:13
+SEQ 65 (code: 101) -> Next: 66, Prev: 64, Next Occ.:NULL
+SEQ 66 (code: 114) -> Next: 67, Prev: 65, Next Occ.:NULL
+SEQ 67 (code: 10) -> Next: 68, Prev: 66, Next Occ.:NULL
+SEQ 68 (code: 115) -> Next: 69, Prev: 67, Next Occ.:32
+SEQ 69 (code: 101) -> Next: 70, Prev: 68, Next Occ.:NULL
+SEQ 70 (code: 116) -> Next: 71, Prev: 69, Next Occ.:29
+SEQ 71 (code: 32) -> Next: 72, Prev: 70, Next Occ.:NULL
+SEQ 72 (code: 40) -> Next: 73, Prev: 71, Next Occ.:NULL
+SEQ 73 (code: 87) -> Next: 74, Prev: 72, Next Occ.:NULL
+SEQ 74 (code: 105) -> Next: 75, Prev: 73, Next Occ.:54
+SEQ 75 (code: 110) -> Next: 76, Prev: 74, Next Occ.:NULL
+SEQ 76 (code: 100) -> Next: 77, Prev: 75, Next Occ.:22
+SEQ 77 (code: 111) -> Next: 78, Prev: 76, Next Occ.:NULL
+SEQ 78 (code: 119) -> Next: 79, Prev: 77, Next Occ.:NULL
+SEQ 79 (code: 115) -> Next: 80, Prev: 78, Next Occ.:NULL
+SEQ 80 (code: 41) -> Next: 81, Prev: 79, Next Occ.:NULL
+SEQ 81 (code: 46) -> Next: 82, Prev: 80, Next Occ.:NULL
+SEQ 82 (code: 32) -> Next: 83, Prev: 81, Next Occ.:16
+SEQ 83 (code: 84) -> Next: 84, Prev: 82, Next Occ.:17
+SEQ 84 (code: 104) -> Next: 85, Prev: 83, Next Occ.:37
+SEQ 85 (code: 101) -> Next: 86, Prev: 84, Next Occ.:38
+SEQ 86 (code: 32) -> Next: 87, Prev: 85, Next Occ.:NULL
+SEQ 87 (code: 98) -> Next: 88, Prev: 86, Next Occ.:NULL
+SEQ 88 (code: 111) -> Next: 89, Prev: 87, Next Occ.:NULL
+SEQ 89 (code: 111) -> Next: 90, Prev: 88, Next Occ.:NULL
+SEQ 90 (code: 107) -> Next: 91, Prev: 89, Next Occ.:NULL
+SEQ 91 (code: 32) -> Next: 92, Prev: 90, Next Occ.:NULL
+SEQ 92 (code: 105) -> Next: 93, Prev: 91, Next Occ.:19
+SEQ 93 (code: 115) -> Next: 94, Prev: 92, Next Occ.:34
+SEQ 94 (code: 32) -> Next: 95, Prev: 93, Next Occ.:57
+SEQ 95 (code: 99) -> Next: 96, Prev: 94, Next Occ.:NULL
+SEQ 96 (code: 111) -> Next: 97, Prev: 95, Next Occ.:NULL
+SEQ 97 (code: 109) -> Next: 98, Prev: 96, Next Occ.:NULL
+SEQ 98 (code: 112) -> Next: 99, Prev: 97, Next Occ.:NULL
+SEQ 99 (code: 111) -> Next: 100, Prev: 98, Next Occ.:NULL
+SEQ 100 (code: 115) -> Next: 101, Prev: 99, Next Occ.:68
+SEQ 101 (code: 101) -> Next: 102, Prev: 100, Next Occ.:1
+SEQ 102 (code: 100) -> Next: 103, Prev: 101, Next Occ.:NULL
+SEQ 103 (code: 32) -> Next: 104, Prev: 102, Next Occ.:NULL
+SEQ 104 (code: 111) -> Next: 105, Prev: 103, Next Occ.:NULL
+SEQ 105 (code: 102) -> Next: 106, Prev: 104, Next Occ.:NULL
+SEQ 106 (code: 32) -> Next: 107, Prev: 105, Next Occ.:35
+SEQ 107 (code: 116) -> Next: 108, Prev: 106, Next Occ.:64
+SEQ 108 (code: 101) -> Next: 109, Prev: 107, Next Occ.:NULL
+SEQ 109 (code: 120) -> Next: 110, Prev: 108, Next Occ.:NULL
+SEQ 110 (code: 116) -> Next: 111, Prev: 109, Next Occ.:NULL
+SEQ 111 (code: 44) -> Next: 112, Prev: 110, Next Occ.:NULL
+SEQ 112 (code: 32) -> Next: 113, Prev: 111, Next Occ.:NULL
+SEQ 113 (code: 102) -> Next: 114, Prev: 112, Next Occ.:NULL
+SEQ 114 (code: 111) -> Next: 115, Prev: 113, Next Occ.:88
+SEQ 115 (code: 111) -> Next: 116, Prev: 114, Next Occ.:12
+SEQ 116 (code: 116) -> Next: 117, Prev: 115, Next Occ.:NULL
+SEQ 117 (code: 110) -> Next: 118, Prev: 116, Next Occ.:NULL
+SEQ 118 (code: 111) -> Next: 119, Prev: 117, Next Occ.:115
+SEQ 119 (code: 116) -> Next: 120, Prev: 118, Next Occ.:107
+SEQ 120 (code: 101) -> Next: 121, Prev: 119, Next Occ.:33
+SEQ 121 (code: 115) -> Next: 122, Prev: 120, Next Occ.:NULL
+SEQ 122 (code: 44) -> Next: 123, Prev: 121, Next Occ.:111
+SEQ 123 (code: 32) -> Next: 124, Prev: 122, Next Occ.:NULL
+SEQ 124 (code: 97) -> Next: 125, Prev: 123, Next Occ.:NULL
+SEQ 125 (code: 110) -> Next: 126, Prev: 124, Next Occ.:75
+SEQ 126 (code: 100) -> Next: 127, Prev: 125, Next Occ.:102
+SEQ 127 (code: 32) -> Next: 128, Prev: 126, Next Occ.:123
+SEQ 128 (code: 97) -> Next: 129, Prev: 127, Next Occ.:NULL
+SEQ 129 (code: 112) -> Next: 130, Prev: 128, Next Occ.:NULL
+SEQ 130 (code: 112) -> Next: 131, Prev: 129, Next Occ.:NULL
+SEQ 131 (code: 101) -> Next: 132, Prev: 130, Next Occ.:27
+SEQ 132 (code: 110) -> Next: 133, Prev: 131, Next Occ.:125
+SEQ 133 (code: 100) -> Next: 134, Prev: 132, Next Occ.:NULL
+SEQ 134 (code: 105) -> Next: 135, Prev: 133, Next Occ.:NULL
+SEQ 135 (code: 99) -> Next: 136, Prev: 134, Next Occ.:NULL
+SEQ 136 (code: 101) -> Next: 137, Prev: 135, Next Occ.:120
+SEQ 137 (code: 115) -> Next: 138, Prev: 136, Next Occ.:NULL
+SEQ 138 (code: 46) -> Next: 139, Prev: 137, Next Occ.:NULL
+SEQ 139 (code: 10) -> Next: 140, Prev: 138, Next Occ.:NULL
+SEQ 140 (code: 84) -> Next: 141, Prev: 139, Next Occ.:83
+SEQ 141 (code: 104) -> Next: 142, Prev: 140, Next Occ.:84
+SEQ 142 (code: 101) -> Next: 143, Prev: 141, Next Occ.:85
+SEQ 143 (code: 32) -> Next: 144, Prev: 142, Next Occ.:112
+SEQ 144 (code: 102) -> Next: 145, Prev: 143, Next Occ.:113
+SEQ 145 (code: 111) -> Next: 146, Prev: 144, Next Occ.:114
+SEQ 146 (code: 111) -> Next: 147, Prev: 145, Next Occ.:118
+SEQ 147 (code: 116) -> Next: 148, Prev: 146, Next Occ.:116
+SEQ 148 (code: 110) -> Next: 149, Prev: 147, Next Occ.:117
+SEQ 149 (code: 111) -> Next: 150, Prev: 148, Next Occ.:146
+SEQ 150 (code: 116) -> Next: 151, Prev: 149, Next Occ.:119
+SEQ 151 (code: 101) -> Next: 152, Prev: 150, Next Occ.:136
+SEQ 152 (code: 115) -> Next: 153, Prev: 151, Next Occ.:93
+SEQ 153 (code: 32) -> Next: 154, Prev: 152, Next Occ.:127
+SEQ 154 (code: 97) -> Next: 155, Prev: 153, Next Occ.:60
+SEQ 155 (code: 114) -> Next: 156, Prev: 154, Next Occ.:NULL
+SEQ 156 (code: 101) -> Next: 157, Prev: 155, Next Occ.:142
+SEQ 157 (code: 32) -> Next: 158, Prev: 156, Next Occ.:91
+SEQ 158 (code: 105) -> Next: 159, Prev: 157, Next Occ.:74
+SEQ 159 (code: 110) -> Next: 160, Prev: 158, Next Occ.:NULL
+SEQ 160 (code: 99) -> Next: 161, Prev: 159, Next Occ.:NULL
+SEQ 161 (code: 108) -> Next: 162, Prev: 160, Next Occ.:NULL
+SEQ 162 (code: 117) -> Next: 163, Prev: 161, Next Occ.:NULL
+SEQ 163 (code: 100) -> Next: 164, Prev: 162, Next Occ.:NULL
+SEQ 164 (code: 101) -> Next: 165, Prev: 163, Next Occ.:101
+SEQ 165 (code: 100) -> Next: 166, Prev: 164, Next Occ.:126
+SEQ 166 (code: 32) -> Next: 167, Prev: 165, Next Occ.:153
+SEQ 167 (code: 97) -> Next: 168, Prev: 166, Next Occ.:52
+SEQ 168 (code: 116) -> Next: 169, Prev: 167, Next Occ.:70
+SEQ 169 (code: 32) -> Next: 170, Prev: 168, Next Occ.:106
+SEQ 170 (code: 116) -> Next: 171, Prev: 169, Next Occ.:36
+SEQ 171 (code: 104) -> Next: 172, Prev: 170, Next Occ.:141
+SEQ 172 (code: 101) -> Next: 173, Prev: 171, Next Occ.:156
+SEQ 173 (code: 32) -> Next: 174, Prev: 172, Next Occ.:NULL
+SEQ 174 (code: 101) -> Next: 175, Prev: 173, Next Occ.:131
+SEQ 175 (code: 110) -> Next: 176, Prev: 174, Next Occ.:132
+SEQ 176 (code: 100) -> Next: 177, Prev: 175, Next Occ.:165
+SEQ 177 (code: 32) -> Next: 178, Prev: 176, Next Occ.:103
+SEQ 178 (code: 111) -> Next: 179, Prev: 177, Next Occ.:104
+SEQ 179 (code: 102) -> Next: 180, Prev: 178, Next Occ.:105
+SEQ 180 (code: 32) -> Next: 181, Prev: 179, Next Occ.:173
+SEQ 181 (code: 101) -> Next: 182, Prev: 180, Next Occ.:NULL
+SEQ 182 (code: 97) -> Next: 183, Prev: 181, Next Occ.:62
+SEQ 183 (code: 99) -> Next: 184, Prev: 182, Next Occ.:58
+SEQ 184 (code: 104) -> Next: 185, Prev: 183, Next Occ.:NULL
+SEQ 185 (code: 32) -> Next: 186, Prev: 184, Next Occ.:94
+SEQ 186 (code: 99) -> Next: 187, Prev: 185, Next Occ.:183
+SEQ 187 (code: 104) -> Next: 188, Prev: 186, Next Occ.:59
+SEQ 188 (code: 97) -> Next: 189, Prev: 187, Next Occ.:128
+SEQ 189 (code: 112) -> Next: 190, Prev: 188, Next Occ.:NULL
+SEQ 190 (code: 116) -> Next: 191, Prev: 189, Next Occ.:150
+SEQ 191 (code: 101) -> Next: 192, Prev: 190, Next Occ.:65
+SEQ 192 (code: 114) -> Next: 193, Prev: 191, Next Occ.:NULL
+SEQ 193 (code: 44) -> Next: 194, Prev: 192, Next Occ.:122
+SEQ 194 (code: 32) -> Next: 195, Prev: 193, Next Occ.:NULL
+SEQ 195 (code: 119) -> Next: 196, Prev: 194, Next Occ.:NULL
+SEQ 196 (code: 104) -> Next: 197, Prev: 195, Next Occ.:18
+SEQ 197 (code: 105) -> Next: 198, Prev: 196, Next Occ.:NULL
+SEQ 198 (code: 108) -> Next: 199, Prev: 197, Next Occ.:NULL
+SEQ 199 (code: 101) -> Next: 200, Prev: 198, Next Occ.:172
+SEQ 200 (code: 32) -> Next: 201, Prev: 199, Next Occ.:169
+SEQ 201 (code: 116) -> Next: 202, Prev: 200, Next Occ.:170
+SEQ 202 (code: 104) -> Next: 203, Prev: 201, Next Occ.:171
+SEQ 203 (code: 101) -> Next: 204, Prev: 202, Next Occ.:NULL
+SEQ 204 (code: 10) -> Next: 205, Prev: 203, Next Occ.:NULL
+SEQ 205 (code: 65) -> Next: 206, Prev: 204, Next Occ.:NULL
+SEQ 206 (code: 112) -> Next: 207, Prev: 205, Next Occ.:129
+SEQ 207 (code: 112) -> Next: 208, Prev: 206, Next Occ.:130
+SEQ 208 (code: 101) -> Next: 209, Prev: 207, Next Occ.:174
+SEQ 209 (code: 110) -> Next: 210, Prev: 208, Next Occ.:175
+SEQ 210 (code: 100) -> Next: 211, Prev: 209, Next Occ.:133
+SEQ 211 (code: 105) -> Next: 212, Prev: 210, Next Occ.:NULL
+SEQ 212 (code: 120) -> Next: 213, Prev: 211, Next Occ.:NULL
+SEQ 213 (code: 32) -> Next: 214, Prev: 212, Next Occ.:10
+SEQ 214 (code: 78) -> Next: 215, Prev: 213, Next Occ.:11
+SEQ 215 (code: 111) -> Next: 216, Prev: 214, Next Occ.:NULL
+SEQ 216 (code: 46) -> Next: 217, Prev: 215, Next Occ.:81
+SEQ 217 (code: 32) -> Next: 218, Prev: 216, Next Occ.:166
+SEQ 218 (code: 97) -> Next: 219, Prev: 217, Next Occ.:124
+SEQ 219 (code: 110) -> Next: 220, Prev: 218, Next Occ.:209
+SEQ 220 (code: 100) -> Next: 221, Prev: 219, Next Occ.:176
+SEQ 221 (code: 32) -> Next: 222, Prev: 220, Next Occ.:NULL
+SEQ 222 (code: 83) -> Next: 223, Prev: 221, Next Occ.:NULL
+SEQ 223 (code: 101) -> Next: 224, Prev: 222, Next Occ.:NULL
+SEQ 224 (code: 99) -> Next: 225, Prev: 223, Next Occ.:63
+SEQ 225 (code: 116) -> Next: 226, Prev: 224, Next Occ.:53
+SEQ 226 (code: 105) -> Next: 227, Prev: 225, Next Occ.:NULL
+SEQ 227 (code: 111) -> Next: 228, Prev: 226, Next Occ.:NULL
+SEQ 228 (code: 110) -> Next: 229, Prev: 227, Next Occ.:NULL
+SEQ 229 (code: 32) -> Next: 230, Prev: 228, Next Occ.:217
+SEQ 230 (code: 97) -> Next: 231, Prev: 229, Next Occ.:154
+SEQ 231 (code: 114) -> Next: 232, Prev: 230, Next Occ.:155
+SEQ 232 (code: 101) -> Next: 233, Prev: 231, Next Occ.:199
+SEQ 233 (code: 32) -> Next: 234, Prev: 232, Next Occ.:NULL
+SEQ 234 (code: 114) -> Next: 235, Prev: 233, Next Occ.:231
+SEQ 235 (code: 101) -> Next: 236, Prev: 234, Next Occ.:NULL
+SEQ 236 (code: 102) -> Next: 237, Prev: 235, Next Occ.:NULL
+SEQ 237 (code: 101) -> Next: 238, Prev: 236, Next Occ.:191
+SEQ 238 (code: 114) -> Next: 239, Prev: 237, Next Occ.:NULL
+SEQ 239 (code: 114) -> Next: 240, Prev: 238, Next Occ.:234
+SEQ 240 (code: 101) -> Next: 241, Prev: 239, Next Occ.:164
+SEQ 241 (code: 100) -> Next: 242, Prev: 240, Next Occ.:220
+SEQ 242 (code: 32) -> Next: 243, Prev: 241, Next Occ.:200
+SEQ 243 (code: 116) -> Next: 244, Prev: 242, Next Occ.:5
+SEQ 244 (code: 111) -> Next: 245, Prev: 243, Next Occ.:NULL
+SEQ 245 (code: 32) -> Next: 246, Prev: 244, Next Occ.:157
+SEQ 246 (code: 105) -> Next: 247, Prev: 245, Next Occ.:158
+SEQ 247 (code: 110) -> Next: 248, Prev: 246, Next Occ.:228
+SEQ 248 (code: 32) -> Next: 249, Prev: 247, Next Occ.:242
+SEQ 249 (code: 116) -> Next: 250, Prev: 248, Next Occ.:201
+SEQ 250 (code: 104) -> Next: 251, Prev: 249, Next Occ.:202
+SEQ 251 (code: 101) -> Next: 252, Prev: 250, Next Occ.:232
+SEQ 252 (code: 32) -> Next: 253, Prev: 251, Next Occ.:248
+SEQ 253 (code: 116) -> Next: 254, Prev: 252, Next Occ.:190
+SEQ 254 (code: 101) -> Next: 255, Prev: 253, Next Occ.:108
+SEQ 255 (code: 120) -> Next: 256, Prev: 254, Next Occ.:109
+SEQ 256 (code: 116) -> Next: 257, Prev: 255, Next Occ.:168
+SEQ 257 (code: 32) -> Next: 258, Prev: 256, Next Occ.:245
+SEQ 258 (code: 105) -> Next: 259, Prev: 257, Next Occ.:246
+SEQ 259 (code: 110) -> Next: 260, Prev: 258, Next Occ.:247
+SEQ 260 (code: 32) -> Next: 261, Prev: 259, Next Occ.:NULL
+SEQ 261 (code: 112) -> Next: 262, Prev: 260, Next Occ.:NULL
+SEQ 262 (code: 97) -> Next: 263, Prev: 261, Next Occ.:230
+SEQ 263 (code: 114) -> Next: 264, Prev: 262, Next Occ.:239
+SEQ 264 (code: 101) -> Next: 265, Prev: 263, Next Occ.:208
+SEQ 265 (code: 110) -> Next: 266, Prev: 264, Next Occ.:28
+SEQ 266 (code: 116) -> Next: 267, Prev: 265, Next Occ.:249
+SEQ 267 (code: 104) -> Next: 268, Prev: 266, Next Occ.:250
+SEQ 268 (code: 101) -> Next: 269, Prev: 267, Next Occ.:151
+SEQ 269 (code: 115) -> Next: 270, Prev: 268, Next Occ.:100
+SEQ 270 (code: 101) -> Next: 271, Prev: 269, Next Occ.:268
+SEQ 271 (code: 115) -> Next: 272, Prev: 270, Next Occ.:121
+SEQ 272 (code: 44) -> Next: 273, Prev: 271, Next Occ.:NULL
+SEQ 273 (code: 10) -> Next: 274, Prev: 272, Next Occ.:NULL
+SEQ 274 (code: 116) -> Next: 275, Prev: 273, Next Occ.:266
+SEQ 275 (code: 104) -> Next: 276, Prev: 274, Next Occ.:267
+SEQ 276 (code: 101) -> Next: 277, Prev: 275, Next Occ.:251
+SEQ 277 (code: 32) -> Next: 278, Prev: 276, Next Occ.:NULL
+SEQ 278 (code: 65) -> Next: 279, Prev: 277, Next Occ.:205
+SEQ 279 (code: 112) -> Next: 280, Prev: 278, Next Occ.:206
+SEQ 280 (code: 112) -> Next: 281, Prev: 279, Next Occ.:207
+SEQ 281 (code: 101) -> Next: 282, Prev: 280, Next Occ.:264
+SEQ 282 (code: 110) -> Next: 283, Prev: 281, Next Occ.:219
+SEQ 283 (code: 100) -> Next: 284, Prev: 282, Next Occ.:210
+SEQ 284 (code: 105) -> Next: 285, Prev: 283, Next Occ.:134
+SEQ 285 (code: 99) -> Next: 286, Prev: 284, Next Occ.:135
+SEQ 286 (code: 101) -> Next: 287, Prev: 285, Next Occ.:270
+SEQ 287 (code: 115) -> Next: 288, Prev: 286, Next Occ.:152
+SEQ 288 (code: 32) -> Next: 289, Prev: 287, Next Occ.:143
+SEQ 289 (code: 102) -> Next: 290, Prev: 288, Next Occ.:144
+SEQ 290 (code: 111) -> Next: 291, Prev: 289, Next Occ.:NULL
+SEQ 291 (code: 108) -> Next: 292, Prev: 290, Next Occ.:NULL
+SEQ 292 (code: 108) -> Next: 293, Prev: 291, Next Occ.:NULL
+SEQ 293 (code: 111) -> Next: 294, Prev: 292, Next Occ.:77
+SEQ 294 (code: 119) -> Next: 295, Prev: 293, Next Occ.:NULL
+SEQ 295 (code: 105) -> Next: 296, Prev: 294, Next Occ.:258
+SEQ 296 (code: 110) -> Next: 297, Prev: 295, Next Occ.:NULL
+SEQ 297 (code: 103) -> Next: 298, Prev: 296, Next Occ.:NULL
+SEQ 298 (code: 32) -> Next: 299, Prev: 297, Next Occ.:252
+SEQ 299 (code: 116) -> Next: 300, Prev: 298, Next Occ.:274
+SEQ 300 (code: 104) -> Next: 301, Prev: 299, Next Occ.:275
+SEQ 301 (code: 101) -> Next: 302, Prev: 300, Next Occ.:276
+SEQ 302 (code: 32) -> Next: 303, Prev: 301, Next Occ.:86
+SEQ 303 (code: 98) -> Next: 304, Prev: 302, Next Occ.:87
+SEQ 304 (code: 111) -> Next: 305, Prev: 303, Next Occ.:145
+SEQ 305 (code: 111) -> Next: 306, Prev: 304, Next Occ.:89
+SEQ 306 (code: 107) -> Next: 307, Prev: 305, Next Occ.:90
+SEQ 307 (code: 32) -> Next: 308, Prev: 306, Next Occ.:298
+SEQ 308 (code: 116) -> Next: 309, Prev: 307, Next Occ.:253
+SEQ 309 (code: 101) -> Next: 310, Prev: 308, Next Occ.:254
+SEQ 310 (code: 120) -> Next: 311, Prev: 309, Next Occ.:255
+SEQ 311 (code: 116) -> Next: 312, Prev: 310, Next Occ.:NULL
+SEQ 312 (code: 46) -> Next: 313, Prev: 311, Next Occ.:216
+SEQ 313 (code: 32) -> Next: 314, Prev: 312, Next Occ.:50
+SEQ 314 (code: 76) -> Next: 315, Prev: 313, Next Occ.:NULL
+SEQ 315 (code: 105) -> Next: 316, Prev: 314, Next Occ.:NULL
+SEQ 316 (code: 98) -> Next: 317, Prev: 315, Next Occ.:NULL
+SEQ 317 (code: 101) -> Next: 318, Prev: 316, Next Occ.:237
+SEQ 318 (code: 114) -> Next: 319, Prev: 317, Next Occ.:61
+SEQ 319 (code: 97) -> Next: 320, Prev: 318, Next Occ.:NULL
+SEQ 320 (code: 108) -> Next: 321, Prev: 319, Next Occ.:NULL
+SEQ 321 (code: 32) -> Next: 322, Prev: 320, Next Occ.:30
+SEQ 322 (code: 117) -> Next: 323, Prev: 321, Next Occ.:31
+SEQ 323 (code: 115) -> Next: 324, Prev: 322, Next Occ.:269
+SEQ 324 (code: 101) -> Next: 325, Prev: 323, Next Occ.:301
+SEQ 325 (code: 32) -> Next: 326, Prev: 324, Next Occ.:257
+SEQ 326 (code: 105) -> Next: 327, Prev: 325, Next Occ.:92
+SEQ 327 (code: 115) -> Next: 328, Prev: 326, Next Occ.:287
+SEQ 328 (code: 32) -> Next: 329, Prev: 327, Next Occ.:NULL
+SEQ 329 (code: 109) -> Next: 330, Prev: 328, Next Occ.:NULL
+SEQ 330 (code: 97) -> Next: 331, Prev: 329, Next Occ.:NULL
+SEQ 331 (code: 100) -> Next: 332, Prev: 330, Next Occ.:163
+SEQ 332 (code: 101) -> Next: 333, Prev: 331, Next Occ.:324
+SEQ 333 (code: 32) -> Next: 334, Prev: 332, Next Occ.:177
+SEQ 334 (code: 111) -> Next: 335, Prev: 333, Next Occ.:178
+SEQ 335 (code: 102) -> Next: 336, Prev: 334, Next Occ.:179
+SEQ 336 (code: 32) -> Next: 337, Prev: 335, Next Occ.:325
+SEQ 337 (code: 105) -> Next: 338, Prev: 336, Next Occ.:NULL
+SEQ 338 (code: 116) -> Next: 339, Prev: 337, Next Occ.:NULL
+SEQ 339 (code: 97) -> Next: 340, Prev: 338, Next Occ.:319
+SEQ 340 (code: 108) -> Next: 341, Prev: 339, Next Occ.:NULL
+SEQ 341 (code: 105) -> Next: 342, Prev: 340, Next Occ.:284
+SEQ 342 (code: 99) -> Next: 343, Prev: 341, Next Occ.:NULL
+SEQ 343 (code: 115) -> Next: 344, Prev: 342, Next Occ.:271
+SEQ 344 (code: 44) -> Next: 345, Prev: 343, Next Occ.:272
+SEQ 345 (code: 10) -> Next: 346, Prev: 344, Next Occ.:NULL
+SEQ 346 (code: 97) -> Next: 347, Prev: 345, Next Occ.:218
+SEQ 347 (code: 110) -> Next: 348, Prev: 346, Next Occ.:282
+SEQ 348 (code: 100) -> Next: 349, Prev: 347, Next Occ.:241
+SEQ 349 (code: 32) -> Next: 350, Prev: 348, Next Occ.:307
+SEQ 350 (code: 116) -> Next: 351, Prev: 349, Next Occ.:299
+SEQ 351 (code: 104) -> Next: 352, Prev: 350, Next Occ.:300
+SEQ 352 (code: 101) -> Next: 353, Prev: 351, Next Occ.:286
+SEQ 353 (code: 115) -> Next: 354, Prev: 352, Next Occ.:323
+SEQ 354 (code: 101) -> Next: 355, Prev: 353, Next Occ.:332
+SEQ 355 (code: 32) -> Next: 356, Prev: 354, Next Occ.:NULL
+SEQ 356 (code: 104) -> Next: 357, Prev: 355, Next Occ.:187
+SEQ 357 (code: 97) -> Next: 358, Prev: 356, Next Occ.:NULL
+SEQ 358 (code: 118) -> Next: 359, Prev: 357, Next Occ.:NULL
+SEQ 359 (code: 101) -> Next: 360, Prev: 358, Next Occ.:354
+SEQ 360 (code: 32) -> Next: 361, Prev: 359, Next Occ.:302
+SEQ 361 (code: 98) -> Next: 362, Prev: 360, Next Occ.:316
+SEQ 362 (code: 101) -> Next: 363, Prev: 361, Next Occ.:NULL
+SEQ 363 (code: 101) -> Next: 364, Prev: 362, Next Occ.:281
+SEQ 364 (code: 110) -> Next: 365, Prev: 363, Next Occ.:259
+SEQ 365 (code: 32) -> Next: 366, Prev: 364, Next Occ.:336
+SEQ 366 (code: 105) -> Next: 367, Prev: 365, Next Occ.:295
+SEQ 367 (code: 110) -> Next: 368, Prev: 366, Next Occ.:347
+SEQ 368 (code: 100) -> Next: 369, Prev: 367, Next Occ.:283
+SEQ 369 (code: 105) -> Next: 370, Prev: 368, Next Occ.:341
+SEQ 370 (code: 99) -> Next: 371, Prev: 369, Next Occ.:NULL
+SEQ 371 (code: 97) -> Next: 372, Prev: 370, Next Occ.:167
+SEQ 372 (code: 116) -> Next: 373, Prev: 371, Next Occ.:308
+SEQ 373 (code: 101) -> Next: 374, Prev: 372, Next Occ.:240
+SEQ 374 (code: 100) -> Next: 375, Prev: 373, Next Occ.:348
+SEQ 375 (code: 32) -> Next: 376, Prev: 374, Next Occ.:360
+SEQ 376 (code: 98) -> Next: 377, Prev: 375, Next Occ.:NULL
+SEQ 377 (code: 121) -> Next: 378, Prev: 376, Next Occ.:NULL
+SEQ 378 (code: 32) -> Next: 379, Prev: 377, Next Occ.:375
+SEQ 379 (code: 98) -> Next: 380, Prev: 378, Next Occ.:NULL
+SEQ 380 (code: 114) -> Next: 381, Prev: 379, Next Occ.:318
+SEQ 381 (code: 97) -> Next: 382, Prev: 380, Next Occ.:182
+SEQ 382 (code: 99) -> Next: 383, Prev: 381, Next Occ.:NULL
+SEQ 383 (code: 107) -> Next: 384, Prev: 382, Next Occ.:NULL
+SEQ 384 (code: 101) -> Next: 385, Prev: 383, Next Occ.:69
+SEQ 385 (code: 116) -> Next: 386, Prev: 384, Next Occ.:225
+SEQ 386 (code: 105) -> Next: 387, Prev: 385, Next Occ.:366
+SEQ 387 (code: 110) -> Next: 388, Prev: 386, Next Occ.:296
+SEQ 388 (code: 103) -> Next: 389, Prev: 387, Next Occ.:297
+SEQ 389 (code: 32) -> Next: 390, Prev: 388, Next Occ.:365
+SEQ 390 (code: 105) -> Next: 391, Prev: 389, Next Occ.:337
+SEQ 391 (code: 116) -> Next: 392, Prev: 390, Next Occ.:338
+SEQ 392 (code: 97) -> Next: 393, Prev: 391, Next Occ.:339
+SEQ 393 (code: 108) -> Next: 394, Prev: 392, Next Occ.:340
+SEQ 394 (code: 105) -> Next: 395, Prev: 393, Next Occ.:369
+SEQ 395 (code: 99) -> Next: 396, Prev: 394, Next Occ.:NULL
+SEQ 396 (code: 32) -> Next: 397, Prev: 395, Next Occ.:349
+SEQ 397 (code: 116) -> Next: 398, Prev: 396, Next Occ.:372
+SEQ 398 (code: 101) -> Next: 399, Prev: 397, Next Occ.:309
+SEQ 399 (code: 120) -> Next: 400, Prev: 398, Next Occ.:310
+SEQ 400 (code: 116) -> Next: 401, Prev: 399, Next Occ.:256
+SEQ 401 (code: 32) -> Next: 402, Prev: 400, Next Occ.:194
+SEQ 402 (code: 119) -> Next: 403, Prev: 401, Next Occ.:294
+SEQ 403 (code: 105) -> Next: 404, Prev: 402, Next Occ.:390
+SEQ 404 (code: 116) -> Next: 405, Prev: 403, Next Occ.:350
+SEQ 405 (code: 104) -> Next: 406, Prev: 404, Next Occ.:184
+SEQ 406 (code: 32) -> Next: 407, Prev: 405, Next Occ.:396
+SEQ 407 (code: 116) -> Next: 408, Prev: 406, Next Occ.:404
+SEQ 408 (code: 104) -> Next: 409, Prev: 407, Next Occ.:351
+SEQ 409 (code: 101) -> Next: 410, Prev: 408, Next Occ.:203
+SEQ 410 (code: 10) -> Next: 411, Prev: 409, Next Occ.:NULL
+SEQ 411 (code: 117) -> Next: 412, Prev: 410, Next Occ.:NULL
+SEQ 412 (code: 110) -> Next: 413, Prev: 411, Next Occ.:367
+SEQ 413 (code: 100) -> Next: 414, Prev: 412, Next Occ.:331
+SEQ 414 (code: 101) -> Next: 415, Prev: 413, Next Occ.:317
+SEQ 415 (code: 114) -> Next: 416, Prev: 414, Next Occ.:NULL
+SEQ 416 (code: 115) -> Next: 417, Prev: 415, Next Occ.:NULL
+SEQ 417 (code: 99) -> Next: 418, Prev: 416, Next Occ.:95
+SEQ 418 (code: 111) -> Next: 419, Prev: 417, Next Occ.:6
+SEQ 419 (code: 114) -> Next: 420, Prev: 418, Next Occ.:263
+SEQ 420 (code: 101) -> Next: 421, Prev: 419, Next Occ.:359
+SEQ 421 (code: 32) -> Next: 422, Prev: 420, Next Occ.:185
+SEQ 422 (code: 99) -> Next: 423, Prev: 421, Next Occ.:186
+SEQ 423 (code: 104) -> Next: 424, Prev: 422, Next Occ.:356
+SEQ 424 (code: 97) -> Next: 425, Prev: 423, Next Occ.:262
+SEQ 425 (code: 114) -> Next: 426, Prev: 424, Next Occ.:380
+SEQ 426 (code: 97) -> Next: 427, Prev: 425, Next Occ.:381
+SEQ 427 (code: 99) -> Next: 428, Prev: 426, Next Occ.:224
+SEQ 428 (code: 116) -> Next: 429, Prev: 427, Next Occ.:397
+SEQ 429 (code: 101) -> Next: 430, Prev: 428, Next Occ.:414
+SEQ 430 (code: 114) -> Next: 431, Prev: 429, Next Occ.:NULL
+SEQ 431 (code: 32) -> Next: 432, Prev: 430, Next Occ.:NULL
+SEQ 432 (code: 34) -> Next: 433, Prev: 431, Next Occ.:NULL
+SEQ 433 (code: 95) -> Next: 434, Prev: 432, Next Occ.:NULL
+SEQ 434 (code: 34) -> Next: 435, Prev: 433, Next Occ.:NULL
+SEQ 435 (code: 46) -> Next: 436, Prev: 434, Next Occ.:312
+SEQ 436 (code: 32) -> Next: 437, Prev: 435, Next Occ.:NULL
+SEQ 437 (code: 32) -> Next: 438, Prev: 436, Next Occ.:313
+SEQ 438 (code: 76) -> Next: 439, Prev: 437, Next Occ.:314
+SEQ 439 (code: 105) -> Next: 440, Prev: 438, Next Occ.:386
+SEQ 440 (code: 110) -> Next: 441, Prev: 439, Next Occ.:NULL
+SEQ 441 (code: 101) -> Next: 442, Prev: 440, Next Occ.:420
+SEQ 442 (code: 32) -> Next: 443, Prev: 441, Next Occ.:NULL
+SEQ 443 (code: 108) -> Next: 444, Prev: 442, Next Occ.:198
+SEQ 444 (code: 101) -> Next: 445, Prev: 443, Next Occ.:363
+SEQ 445 (code: 110) -> Next: 446, Prev: 444, Next Occ.:387
+SEQ 446 (code: 103) -> Next: 447, Prev: 445, Next Occ.:NULL
+SEQ 447 (code: 116) -> Next: 448, Prev: 446, Next Occ.:407
+SEQ 448 (code: 104) -> Next: 449, Prev: 447, Next Occ.:405
+SEQ 449 (code: 32) -> Next: 450, Prev: 448, Next Occ.:389
+SEQ 450 (code: 105) -> Next: 451, Prev: 449, Next Occ.:326
+SEQ 451 (code: 115) -> Next: 452, Prev: 450, Next Occ.:327
+SEQ 452 (code: 32) -> Next: 453, Prev: 451, Next Occ.:NULL
+SEQ 453 (code: 55) -> Next: 454, Prev: 452, Next Occ.:NULL
+SEQ 454 (code: 48) -> Next: 455, Prev: 453, Next Occ.:NULL
+SEQ 455 (code: 45) -> Next: 456, Prev: 454, Next Occ.:NULL
+SEQ 456 (code: 55) -> Next: 457, Prev: 455, Next Occ.:NULL
+SEQ 457 (code: 50) -> Next: 458, Prev: 456, Next Occ.:NULL
+SEQ 458 (code: 32) -> Next: 459, Prev: 457, Next Occ.:421
+SEQ 459 (code: 99) -> Next: 460, Prev: 458, Next Occ.:422
+SEQ 460 (code: 104) -> Next: 461, Prev: 459, Next Occ.:423
+SEQ 461 (code: 97) -> Next: 462, Prev: 460, Next Occ.:424
+SEQ 462 (code: 114) -> Next: 463, Prev: 461, Next Occ.:425
+SEQ 463 (code: 97) -> Next: 464, Prev: 462, Next Occ.:426
+SEQ 464 (code: 99) -> Next: 465, Prev: 463, Next Occ.:427
+SEQ 465 (code: 116) -> Next: 466, Prev: 464, Next Occ.:428
+SEQ 466 (code: 101) -> Next: 467, Prev: 465, Next Occ.:429
+SEQ 467 (code: 114) -> Next: 468, Prev: 466, Next Occ.:415
+SEQ 468 (code: 115) -> Next: 469, Prev: 467, Next Occ.:137
+SEQ 469 (code: 46) -> Next: 470, Prev: 468, Next Occ.:435
+SEQ 470 (code: 32) -> Next: 471, Prev: 469, Next Occ.:277
+SEQ 471 (code: 65) -> Next: 472, Prev: 470, Next Occ.:NULL
+SEQ 472 (code: 32) -> Next: 473, Prev: 471, Next Occ.:NULL
+SEQ 473 (code: 110) -> Next: 474, Prev: 472, Next Occ.:NULL
+SEQ 474 (code: 117) -> Next: 475, Prev: 473, Next Occ.:25
+SEQ 475 (code: 109) -> Next: 476, Prev: 474, Next Occ.:NULL
+SEQ 476 (code: 98) -> Next: 477, Prev: 475, Next Occ.:361
+SEQ 477 (code: 101) -> Next: 478, Prev: 476, Next Occ.:466
+SEQ 478 (code: 114) -> Next: 479, Prev: 477, Next Occ.:430
+SEQ 479 (code: 32) -> Next: 480, Prev: 478, Next Occ.:333
+SEQ 480 (code: 111) -> Next: 481, Prev: 479, Next Occ.:334
+SEQ 481 (code: 102) -> Next: 482, Prev: 480, Next Occ.:NULL
+SEQ 482 (code: 10) -> Next: 483, Prev: 481, Next Occ.:NULL
+SEQ 483 (code: 103) -> Next: 484, Prev: 482, Next Occ.:NULL
+SEQ 484 (code: 114) -> Next: 485, Prev: 483, Next Occ.:462
+SEQ 485 (code: 97) -> Next: 486, Prev: 484, Next Occ.:188
+SEQ 486 (code: 112) -> Next: 487, Prev: 485, Next Occ.:NULL
+SEQ 487 (code: 104) -> Next: 488, Prev: 486, Next Occ.:196
+SEQ 488 (code: 105) -> Next: 489, Prev: 487, Next Occ.:394
+SEQ 489 (code: 99) -> Next: 490, Prev: 488, Next Occ.:342
+SEQ 490 (code: 115) -> Next: 491, Prev: 489, Next Occ.:451
+SEQ 491 (code: 32) -> Next: 492, Prev: 490, Next Occ.:479
+SEQ 492 (code: 111) -> Next: 493, Prev: 491, Next Occ.:23
+SEQ 493 (code: 99) -> Next: 494, Prev: 492, Next Occ.:NULL
+SEQ 494 (code: 99) -> Next: 495, Prev: 493, Next Occ.:24
+SEQ 495 (code: 117) -> Next: 496, Prev: 494, Next Occ.:NULL
+SEQ 496 (code: 114) -> Next: 497, Prev: 495, Next Occ.:478
+SEQ 497 (code: 32) -> Next: 498, Prev: 496, Next Occ.:449
+SEQ 498 (code: 105) -> Next: 499, Prev: 497, Next Occ.:439
+SEQ 499 (code: 110) -> Next: 500, Prev: 498, Next Occ.:364
+SEQ 500 (code: 32) -> Next: 501, Prev: 499, Next Occ.:406
+SEQ 501 (code: 116) -> Next: 502, Prev: 500, Next Occ.:447
+SEQ 502 (code: 104) -> Next: 503, Prev: 501, Next Occ.:408
+SEQ 503 (code: 101) -> Next: 504, Prev: 502, Next Occ.:441
+SEQ 504 (code: 32) -> Next: 505, Prev: 503, Next Occ.:500
+SEQ 505 (code: 116) -> Next: 506, Prev: 504, Next Occ.:465
+SEQ 506 (code: 101) -> Next: 507, Prev: 505, Next Occ.:398
+SEQ 507 (code: 120) -> Next: 508, Prev: 506, Next Occ.:399
+SEQ 508 (code: 116) -> Next: 509, Prev: 507, Next Occ.:110
+SEQ 509 (code: 44) -> Next: 510, Prev: 508, Next Occ.:193
+SEQ 510 (code: 32) -> Next: 511, Prev: 509, Next Occ.:504
+SEQ 511 (code: 116) -> Next: 512, Prev: 510, Next Occ.:501
+SEQ 512 (code: 104) -> Next: 513, Prev: 511, Next Occ.:502
+SEQ 513 (code: 101) -> Next: 514, Prev: 512, Next Occ.:352
+SEQ 514 (code: 115) -> Next: 515, Prev: 513, Next Occ.:353
+SEQ 515 (code: 101) -> Next: 516, Prev: 514, Next Occ.:503
+SEQ 516 (code: 32) -> Next: 517, Prev: 515, Next Occ.:229
+SEQ 517 (code: 97) -> Next: 518, Prev: 516, Next Occ.:461
+SEQ 518 (code: 114) -> Next: 519, Prev: 517, Next Occ.:419
+SEQ 519 (code: 101) -> Next: 520, Prev: 518, Next Occ.:515
+SEQ 520 (code: 32) -> Next: 521, Prev: 519, Next Occ.:233
+SEQ 521 (code: 114) -> Next: 522, Prev: 520, Next Occ.:518
+SEQ 522 (code: 101) -> Next: 523, Prev: 521, Next Occ.:235
+SEQ 523 (code: 102) -> Next: 524, Prev: 522, Next Occ.:236
+SEQ 524 (code: 101) -> Next: 525, Prev: 523, Next Occ.:477
+SEQ 525 (code: 114) -> Next: 526, Prev: 524, Next Occ.:238
+SEQ 526 (code: 114) -> Next: 527, Prev: 525, Next Occ.:521
+SEQ 527 (code: 101) -> Next: 528, Prev: 526, Next Occ.:373
+SEQ 528 (code: 100) -> Next: 529, Prev: 527, Next Occ.:374
+SEQ 529 (code: 32) -> Next: 530, Prev: 528, Next Occ.:510
+SEQ 530 (code: 116) -> Next: 531, Prev: 529, Next Occ.:243
+SEQ 531 (code: 111) -> Next: 532, Prev: 530, Next Occ.:244
+SEQ 532 (code: 32) -> Next: 533, Prev: 531, Next Occ.:378
+SEQ 533 (code: 98) -> Next: 534, Prev: 532, Next Occ.:376
+SEQ 534 (code: 121) -> Next: 535, Prev: 533, Next Occ.:377
+SEQ 535 (code: 32) -> Next: 536, Prev: 534, Next Occ.:472
+SEQ 536 (code: 110) -> Next: 537, Prev: 535, Next Occ.:473
+SEQ 537 (code: 117) -> Next: 538, Prev: 536, Next Occ.:474
+SEQ 538 (code: 109) -> Next: 539, Prev: 537, Next Occ.:475
+SEQ 539 (code: 98) -> Next: 540, Prev: 538, Next Occ.:476
+SEQ 540 (code: 101) -> Next: 541, Prev: 539, Next Occ.:524
+SEQ 541 (code: 114) -> Next: 542, Prev: 540, Next Occ.:496
+SEQ 542 (code: 32) -> Next: 543, Prev: 541, Next Occ.:516
+SEQ 543 (code: 97) -> Next: 544, Prev: 542, Next Occ.:NULL
+SEQ 544 (code: 115) -> Next: 545, Prev: 543, Next Occ.:NULL
+SEQ 545 (code: 10) -> Next: 546, Prev: 544, Next Occ.:NULL
+SEQ 546 (code: 34) -> Next: 547, Prev: 545, Next Occ.:NULL
+SEQ 547 (code: 71) -> Next: 548, Prev: 546, Next Occ.:NULL
+SEQ 548 (code: 114) -> Next: 549, Prev: 547, Next Occ.:484
+SEQ 549 (code: 97) -> Next: 550, Prev: 548, Next Occ.:485
+SEQ 550 (code: 112) -> Next: 551, Prev: 549, Next Occ.:486
+SEQ 551 (code: 104) -> Next: 552, Prev: 550, Next Occ.:487
+SEQ 552 (code: 105) -> Next: 553, Prev: 551, Next Occ.:488
+SEQ 553 (code: 99) -> Next: 554, Prev: 552, Next Occ.:NULL
+SEQ 554 (code: 34) -> Next: 555, Prev: 553, Next Occ.:NULL
+SEQ 555 (code: 44) -> Next: 556, Prev: 554, Next Occ.:509
+SEQ 556 (code: 32) -> Next: 557, Prev: 555, Next Occ.:180
+SEQ 557 (code: 101) -> Next: 558, Prev: 556, Next Occ.:384
+SEQ 558 (code: 116) -> Next: 559, Prev: 557, Next Occ.:NULL
+SEQ 559 (code: 99) -> Next: 560, Prev: 558, Next Occ.:NULL
+SEQ 560 (code: 46) -> Next: 561, Prev: 559, Next Occ.:469
+SEQ 561 (code: 32) -> Next: 562, Prev: 560, Next Occ.:82
+SEQ 562 (code: 84) -> Next: 563, Prev: 561, Next Occ.:140
+SEQ 563 (code: 104) -> Next: 564, Prev: 562, Next Occ.:512
+SEQ 564 (code: 101) -> Next: 565, Prev: 563, Next Occ.:519
+SEQ 565 (code: 32) -> Next: 566, Prev: 564, Next Occ.:NULL
+SEQ 566 (code: 70) -> Next: 567, Prev: 565, Next Occ.:NULL
+SEQ 567 (code: 105) -> Next: 568, Prev: 566, Next Occ.:NULL
+SEQ 568 (code: 103) -> Next: 569, Prev: 567, Next Occ.:NULL
+SEQ 569 (code: 117) -> Next: 570, Prev: 568, Next Occ.:495
+SEQ 570 (code: 114) -> Next: 571, Prev: 569, Next Occ.:526
+SEQ 571 (code: 101) -> Next: 572, Prev: 570, Next Occ.:513
+SEQ 572 (code: 115) -> Next: 573, Prev: 571, Next Occ.:490
+SEQ 573 (code: 32) -> Next: 574, Prev: 572, Next Occ.:529
+SEQ 574 (code: 116) -> Next: 575, Prev: 573, Next Occ.:511
+SEQ 575 (code: 104) -> Next: 576, Prev: 574, Next Occ.:563
+SEQ 576 (code: 101) -> Next: 577, Prev: 575, Next Occ.:NULL
+SEQ 577 (code: 109) -> Next: 578, Prev: 576, Next Occ.:NULL
+SEQ 578 (code: 115) -> Next: 579, Prev: 577, Next Occ.:514
+SEQ 579 (code: 101) -> Next: 580, Prev: 578, Next Occ.:NULL
+SEQ 580 (code: 108) -> Next: 581, Prev: 579, Next Occ.:NULL
+SEQ 581 (code: 118) -> Next: 582, Prev: 580, Next Occ.:358
+SEQ 582 (code: 101) -> Next: 583, Prev: 581, Next Occ.:571
+SEQ 583 (code: 115) -> Next: 584, Prev: 582, Next Occ.:572
+SEQ 584 (code: 32) -> Next: 585, Prev: 583, Next Occ.:542
+SEQ 585 (code: 97) -> Next: 586, Prev: 584, Next Occ.:517
+SEQ 586 (code: 114) -> Next: 587, Prev: 585, Next Occ.:570
+SEQ 587 (code: 101) -> Next: 588, Prev: 586, Next Occ.:564
+SEQ 588 (code: 32) -> Next: 589, Prev: 587, Next Occ.:497
+SEQ 589 (code: 105) -> Next: 590, Prev: 588, Next Occ.:498
+SEQ 590 (code: 110) -> Next: 591, Prev: 589, Next Occ.:499
+SEQ 591 (code: 32) -> Next: 592, Prev: 590, Next Occ.:584
+SEQ 592 (code: 97) -> Next: 593, Prev: 591, Next Occ.:NULL
+SEQ 593 (code: 32) -> Next: 594, Prev: 592, Next Occ.:NULL
+SEQ 594 (code: 115) -> Next: 595, Prev: 593, Next Occ.:578
+SEQ 595 (code: 101) -> Next: 596, Prev: 594, Next Occ.:NULL
+SEQ 596 (code: 112) -> Next: 597, Prev: 595, Next Occ.:261
+SEQ 597 (code: 97) -> Next: 598, Prev: 596, Next Occ.:585
+SEQ 598 (code: 114) -> Next: 599, Prev: 597, Next Occ.:548
+SEQ 599 (code: 97) -> Next: 600, Prev: 598, Next Occ.:371
+SEQ 600 (code: 116) -> Next: 601, Prev: 599, Next Occ.:505
+SEQ 601 (code: 101) -> Next: 602, Prev: 600, Next Occ.:587
+SEQ 602 (code: 32) -> Next: 603, Prev: 601, Next Occ.:288
+SEQ 603 (code: 102) -> Next: 604, Prev: 602, Next Occ.:NULL
+SEQ 604 (code: 105) -> Next: 605, Prev: 603, Next Occ.:197
+SEQ 605 (code: 108) -> Next: 606, Prev: 604, Next Occ.:443
+SEQ 606 (code: 101) -> Next: 607, Prev: 605, Next Occ.:NULL
+SEQ 607 (code: 46) -> Next: 608, Prev: 606, Next Occ.:560
+SEQ 608 (code: 32) -> Next: 609, Prev: 607, Next Occ.:561
+SEQ 609 (code: 84) -> Next: 610, Prev: 608, Next Occ.:NULL
+SEQ 610 (code: 111) -> Next: 611, Prev: 609, Next Occ.:NULL
+SEQ 611 (code: 10) -> Next: 612, Prev: 610, Next Occ.:NULL
+SEQ 612 (code: 102) -> Next: 613, Prev: 611, Next Occ.:NULL
+SEQ 613 (code: 97) -> Next: 614, Prev: 612, Next Occ.:463
+SEQ 614 (code: 99) -> Next: 615, Prev: 613, Next Occ.:NULL
+SEQ 615 (code: 105) -> Next: 616, Prev: 614, Next Occ.:604
+SEQ 616 (code: 108) -> Next: 617, Prev: 615, Next Occ.:393
+SEQ 617 (code: 105) -> Next: 618, Prev: 616, Next Occ.:403
+SEQ 618 (code: 116) -> Next: 619, Prev: 617, Next Occ.:391
+SEQ 619 (code: 97) -> Next: 620, Prev: 618, Next Occ.:599
+SEQ 620 (code: 116) -> Next: 621, Prev: 619, Next Occ.:600
+SEQ 621 (code: 101) -> Next: 622, Prev: 620, Next Occ.:601
+SEQ 622 (code: 32) -> Next: 623, Prev: 621, Next Occ.:458
+SEQ 623 (code: 99) -> Next: 624, Prev: 622, Next Occ.:417
+SEQ 624 (code: 111) -> Next: 625, Prev: 623, Next Occ.:227
+SEQ 625 (code: 110) -> Next: 626, Prev: 624, Next Occ.:NULL
+SEQ 626 (code: 118) -> Next: 627, Prev: 625, Next Occ.:581
+SEQ 627 (code: 101) -> Next: 628, Prev: 626, Next Occ.:540
+SEQ 628 (code: 114) -> Next: 629, Prev: 627, Next Occ.:467
+SEQ 629 (code: 115) -> Next: 630, Prev: 628, Next Occ.:NULL
+SEQ 630 (code: 105) -> Next: 631, Prev: 629, Next Occ.:226
+SEQ 631 (code: 111) -> Next: 632, Prev: 630, Next Occ.:624
+SEQ 632 (code: 110) -> Next: 633, Prev: 631, Next Occ.:590
+SEQ 633 (code: 32) -> Next: 634, Prev: 632, Next Occ.:573
+SEQ 634 (code: 116) -> Next: 635, Prev: 633, Next Occ.:530
+SEQ 635 (code: 111) -> Next: 636, Prev: 634, Next Occ.:531
+SEQ 636 (code: 32) -> Next: 637, Prev: 635, Next Occ.:591
+SEQ 637 (code: 97) -> Next: 638, Prev: 636, Next Occ.:592
+SEQ 638 (code: 32) -> Next: 639, Prev: 637, Next Occ.:401
+SEQ 639 (code: 119) -> Next: 640, Prev: 638, Next Occ.:NULL
+SEQ 640 (code: 111) -> Next: 641, Prev: 639, Next Occ.:418
+SEQ 641 (code: 114) -> Next: 642, Prev: 640, Next Occ.:NULL
+SEQ 642 (code: 100) -> Next: 643, Prev: 641, Next Occ.:NULL
+SEQ 643 (code: 45) -> Next: 644, Prev: 642, Next Occ.:NULL
+SEQ 644 (code: 112) -> Next: 645, Prev: 643, Next Occ.:NULL
+SEQ 645 (code: 114) -> Next: 646, Prev: 644, Next Occ.:NULL
+SEQ 646 (code: 111) -> Next: 647, Prev: 645, Next Occ.:492
+SEQ 647 (code: 99) -> Next: 648, Prev: 646, Next Occ.:285
+SEQ 648 (code: 101) -> Next: 649, Prev: 647, Next Occ.:582
+SEQ 649 (code: 115) -> Next: 650, Prev: 648, Next Occ.:NULL
+SEQ 650 (code: 115) -> Next: 651, Prev: 649, Next Occ.:629
+SEQ 651 (code: 105) -> Next: 652, Prev: 650, Next Occ.:589
+SEQ 652 (code: 110) -> Next: 653, Prev: 651, Next Occ.:445
+SEQ 653 (code: 103) -> Next: 654, Prev: 652, Next Occ.:388
+SEQ 654 (code: 32) -> Next: 655, Prev: 653, Next Occ.:602
+SEQ 655 (code: 102) -> Next: 656, Prev: 654, Next Occ.:289
+SEQ 656 (code: 111) -> Next: 657, Prev: 655, Next Occ.:640
+SEQ 657 (code: 114) -> Next: 658, Prev: 656, Next Occ.:NULL
+SEQ 658 (code: 109) -> Next: 659, Prev: 657, Next Occ.:329
+SEQ 659 (code: 97) -> Next: 660, Prev: 658, Next Occ.:619
+SEQ 660 (code: 116) -> Next: 661, Prev: 659, Next Occ.:508
+SEQ 661 (code: 44) -> Next: 662, Prev: 660, Next Occ.:555
+SEQ 662 (code: 32) -> Next: 663, Prev: 661, Next Occ.:636
+SEQ 663 (code: 97) -> Next: 664, Prev: 662, Next Occ.:346
+SEQ 664 (code: 110) -> Next: 665, Prev: 663, Next Occ.:632
+SEQ 665 (code: 32) -> Next: 666, Prev: 664, Next Occ.:662
+SEQ 666 (code: 97) -> Next: 667, Prev: 665, Next Occ.:659
+SEQ 667 (code: 116) -> Next: 668, Prev: 666, Next Occ.:NULL
+SEQ 668 (code: 116) -> Next: 669, Prev: 667, Next Occ.:620
+SEQ 669 (code: 101) -> Next: 670, Prev: 668, Next Occ.:576
+SEQ 670 (code: 109) -> Next: 671, Prev: 669, Next Occ.:97
+SEQ 671 (code: 112) -> Next: 672, Prev: 670, Next Occ.:189
+SEQ 672 (code: 116) -> Next: 673, Prev: 671, Next Occ.:400
+SEQ 673 (code: 32) -> Next: 674, Prev: 672, Next Occ.:355
+SEQ 674 (code: 104) -> Next: 675, Prev: 673, Next Occ.:460
+SEQ 675 (code: 97) -> Next: 676, Prev: 674, Next Occ.:543
+SEQ 676 (code: 115) -> Next: 677, Prev: 675, Next Occ.:583
+SEQ 677 (code: 32) -> Next: 678, Prev: 676, Next Occ.:532
+SEQ 678 (code: 98) -> Next: 679, Prev: 677, Next Occ.:539
+SEQ 679 (code: 101) -> Next: 680, Prev: 678, Next Occ.:362
+SEQ 680 (code: 101) -> Next: 681, Prev: 679, Next Occ.:444
+SEQ 681 (code: 110) -> Next: 682, Prev: 680, Next Occ.:NULL
+SEQ 682 (code: 10) -> Next: 683, Prev: 681, Next Occ.:NULL
+SEQ 683 (code: 109) -> Next: 684, Prev: 682, Next Occ.:658
+SEQ 684 (code: 97) -> Next: 685, Prev: 683, Next Occ.:330
+SEQ 685 (code: 100) -> Next: 686, Prev: 684, Next Occ.:413
+SEQ 686 (code: 101) -> Next: 687, Prev: 685, Next Occ.:621
+SEQ 687 (code: 32) -> Next: 688, Prev: 686, Next Occ.:633
+SEQ 688 (code: 116) -> Next: 689, Prev: 687, Next Occ.:634
+SEQ 689 (code: 111) -> Next: 690, Prev: 688, Next Occ.:635
+SEQ 690 (code: 32) -> Next: 691, Prev: 689, Next Occ.:556
+SEQ 691 (code: 101) -> Next: 692, Prev: 690, Next Occ.:680
+SEQ 692 (code: 110) -> Next: 693, Prev: 691, Next Occ.:412
+SEQ 693 (code: 100) -> Next: 694, Prev: 692, Next Occ.:528
+SEQ 694 (code: 32) -> Next: 695, Prev: 693, Next Occ.:690
+SEQ 695 (code: 101) -> Next: 696, Prev: 694, Next Occ.:181
+SEQ 696 (code: 97) -> Next: 697, Prev: 695, Next Occ.:613
+SEQ 697 (code: 99) -> Next: 698, Prev: 696, Next Occ.:459
+SEQ 698 (code: 104) -> Next: 699, Prev: 697, Next Occ.:448
+SEQ 699 (code: 32) -> Next: 700, Prev: 698, Next Occ.:442
+SEQ 700 (code: 108) -> Next: 701, Prev: 699, Next Occ.:616
+SEQ 701 (code: 105) -> Next: 702, Prev: 700, Next Occ.:651
+SEQ 702 (code: 110) -> Next: 703, Prev: 701, Next Occ.:440
+SEQ 703 (code: 101) -> Next: 704, Prev: 702, Next Occ.:686
+SEQ 704 (code: 32) -> Next: 705, Prev: 703, Next Occ.:638
+SEQ 705 (code: 119) -> Next: 706, Prev: 704, Next Occ.:402
+SEQ 706 (code: 105) -> Next: 707, Prev: 705, Next Occ.:617
+SEQ 707 (code: 116) -> Next: 708, Prev: 706, Next Occ.:574
+SEQ 708 (code: 104) -> Next: 709, Prev: 707, Next Occ.:698
+SEQ 709 (code: 32) -> Next: 710, Prev: 708, Next Occ.:665
+SEQ 710 (code: 97) -> Next: 711, Prev: 709, Next Occ.:637
+SEQ 711 (code: 32) -> Next: 712, Prev: 710, Next Occ.:593
+SEQ 712 (code: 115) -> Next: 713, Prev: 711, Next Occ.:NULL
+SEQ 713 (code: 112) -> Next: 714, Prev: 712, Next Occ.:596
+SEQ 714 (code: 97) -> Next: 715, Prev: 713, Next Occ.:696
+SEQ 715 (code: 99) -> Next: 716, Prev: 714, Next Occ.:647
+SEQ 716 (code: 101) -> Next: 717, Prev: 715, Next Occ.:606
+SEQ 717 (code: 46) -> Next: 718, Prev: 716, Next Occ.:138
+SEQ 718 (code: 10) -> Next: 719, Prev: 717, Next Occ.:NULL
+SEQ 719 (code: 10) -> Next: NULL, Prev: 718, Next Occ.:NULL
+Time to compress: 204.233ms.
