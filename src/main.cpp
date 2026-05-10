@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
 		std::ostringstream buffer;
 		buffer << std::cin.rdbuf();
 		T = buffer.str();
-		cout << "Read " << T.size() << "charaters. \n";
+		cout << "Read " << T.size() << " charaters. \n";
 	}
     else
 	{

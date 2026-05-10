@@ -53,6 +53,9 @@ public:
         return *this;
     }
 
+    auto begin() const {return seq.begin();}
+    auto end() const {return seq.end();}
+
 };
 
 inline TSEQ::TSEQ(const string& s)

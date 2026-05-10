@@ -6,6 +6,7 @@
 #include <climits>
 #include <string>
 #include <math.h>
+#include <fstream>
 #include <unordered_map>
 #include "../include/queue.h"
 #include "../include/threaded_sequence.h"
@@ -45,8 +46,8 @@ private:
         if(verbose) cout << "[VERBOSE] Done.\n";
     }
     void output(bool verbose = false);
-
-  void print();
+    void print();
+    template<typename T> void serialize(string filename, const T& serialized);
 };
 
  
@@ -119,6 +120,27 @@ inline void Repair::printHashTable()
     }
 }
 
+template<typename T> inline void Repair::serialize(string filename, const T& serialized)
+{
+    ofstream fout;
+    fout.open(filename, ios::binary | ios::out | ios::trunc);
+
+    for(const auto& character : serialized)
+    {
+        if constexpr (is_same_v<T, vector<size_t>>)
+        {
+            fout.write(reinterpret_cast<const char*>(&character), sizeof(character));
+        }
+        else
+        {
+            if(character.code != N)
+            {
+                fout.write(reinterpret_cast<const char*>(&character.code), sizeof(character.code));
+            }
+        }
+    }
+}
+
 inline void Repair::output(bool verbose)
 {
     if(verbose)
@@ -149,7 +171,8 @@ inline void Repair::output(bool verbose)
         if(seq[i].code != N)
         c++;
     }
-    
+    this->serialize<TSEQ>("output/sequence.rp", this->seq);
+    this->serialize<vector<st>>("output/rulehistory.rp", this->ruleHistory);
     cout << "\n Rule History size: " << ruleHistory.size() << "\n";
     cout << "\n Compressed text size: " << c << "\n";
     

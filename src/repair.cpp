@@ -131,37 +131,38 @@ void Repair::decrease(st pos) {
 
 void Repair::replace(st position)
 {
+    st pos_next = seq[position].next;
+    if (pos_next == N) return;
 
-   // cout << "replace " << position << "\n";
-
-    st pos_next = seq[position].next; 
-    if (pos_next == N)
-    {
-    cout << "You should never see this. \n";
-      return;  
-    } 
-    
     st L = seq[position].prev;
-    st R = seq[pos_next].next; 
-    if (L != N) decrease(L);         
-    decrease(position);              
-    if (R != N) decrease(pos_next);  
+    st R = seq[pos_next].next;
+
+    if (R != N) decrease(pos_next);
+
+    decrease(position);
+
+    if (L != N) decrease(L);
 
     seq[position].next = R;
-    if (R != N) {
-        seq[R].prev = position;
-    }
+    if (R != N) seq[R].prev = position;
 
     seq[position].code = this->rule;
+    
+    seq[position].next_occ = N;
+    seq[position].prev_occ = N;
 
     seq[pos_next].code = N;
     seq[pos_next].next = N;
     seq[pos_next].prev = N;
+    seq[pos_next].next_occ = N;
+    seq[pos_next].prev_occ = N;
 
-    if (L != N) {
+    if (L != N)
+    {
         insert(new PAIR{ seq[L].code, seq[position].code }, L);
     }
-    if (R != N) {
+    if (R != N)
+    {
         insert(new PAIR{ seq[position].code, seq[R].code }, position);
     }
 }
@@ -178,6 +179,8 @@ void Repair::compress(bool verbose)
     
         PAIR* mostFreqPair = q.pop_max();
         if(!mostFreqPair || mostFreqPair->freq < 2) break;
+
+        ht.erase({mostFreqPair->left, mostFreqPair->right});
 
         this->ruleHistory.push_back(mostFreqPair->left);
         this->ruleHistory.push_back(mostFreqPair->right);
@@ -199,7 +202,7 @@ void Repair::compress(bool verbose)
             curr = next_occ_node;
         }
 
-        ht.erase({mostFreqPair->left, mostFreqPair->right});
+        delete mostFreqPair;
   
     
     this->ruleHistory = ruleHistory;
