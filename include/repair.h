@@ -33,7 +33,8 @@ private:
     void compress(bool verbose);
     void printHashTable();
     void removeFromOccList(PAIR* p, st pos);
-    public:
+
+public:
     
     Repair(const string& input);
     ~Repair();

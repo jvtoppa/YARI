@@ -41,6 +41,7 @@ int main(int argc, char* argv[]) {
     auto end2 = chrono::high_resolution_clock::now();
     chrono::duration<double, milli> time2 = end2 - start;
     repair.output(false);
+	cout << "Encoding...\n";
     cout << "Time to compress: " << time2.count() << "ms.\n";
 
     //repair.output();

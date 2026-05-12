@@ -4,16 +4,19 @@ CXXFLAGS = -O3 -w -I./include
 REPAIR_SRC = ./src/repair.cpp ./src/main.cpp
 DESPAIR_SRC = ./src/despair.cpp
 CHECK_SRC = ./src/check_correctness.cpp
+# Added encodeCFG source
+ENCODE_SRC = ./src/encodeCFG.cpp
 
 BIN_DIR = build
 
 REPAIR_OUT = $(BIN_DIR)/repair
 DESPAIR_OUT = $(BIN_DIR)/despair
 CHECK_OUT = $(BIN_DIR)/check_correctness
+ENCODE_OUT = $(BIN_DIR)/encodeCFG
 
 .PHONY: all clean
 
-all: $(BIN_DIR) $(REPAIR_OUT) $(DESPAIR_OUT) $(CHECK_OUT)
+all: $(BIN_DIR) $(REPAIR_OUT) $(DESPAIR_OUT) $(CHECK_OUT) $(ENCODE_OUT)
 
 $(BIN_DIR):
 	mkdir -p $(BIN_DIR)
@@ -24,8 +27,11 @@ $(REPAIR_OUT): $(REPAIR_SRC)
 $(DESPAIR_OUT): $(DESPAIR_SRC)
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
-# New rule for check_correctness
 $(CHECK_OUT): $(CHECK_SRC)
+	$(CXX) $(CXXFLAGS) -o $@ $^
+
+# New rule for encodeCFG
+$(ENCODE_OUT): $(ENCODE_SRC)
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
 clean:
