@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
 		std::ostringstream buffer;
 		buffer << std::cin.rdbuf();
 		T = buffer.str();
-		cout << "Read " << T.size() << " charaters. \n";
+		//cout << "Read " << T.size() << " charaters. \n";
 	}
     else
 	{
@@ -34,15 +34,15 @@ int main(int argc, char* argv[]) {
 
 	}
 	
-    cout << "Starting...\n";
+    //cout << "Starting...\n";
     auto start = chrono::high_resolution_clock::now();
     Repair repair(T);
-    repair.run(true,false);
+    repair.run(false,false);
     auto end2 = chrono::high_resolution_clock::now();
     chrono::duration<double, milli> time2 = end2 - start;
-    repair.output(false);
-	cout << "Encoding...\n";
-    cout << "Time to compress: " << time2.count() << "ms.\n";
+    //repair.output(false);
+	//cout << "Encoding...\n";
+    cout << time2.count() << "ms";
 
     //repair.output();
     return 0;
