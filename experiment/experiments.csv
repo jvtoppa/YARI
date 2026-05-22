@@ -1,0 +1,2 @@
+Filename, Peak Memory (MiB), Compression time (ms), Encoding time (ms), Bitsize, No. of rules, CFG size, Data Type
+s1.txt, 0.119, 0.115443 ms, 0.0139, 1136, 12, 97, repetitive
