@@ -49,7 +49,14 @@ def experiment():
                     peak_mib = "TIMEOUT"
                 except Exception as e:
                     peak_mib = f"ERROR_{type(e).__name__}"
-
+                
+                #if(Path(f"../output/rulehistory.rp")):
+                #    print("yes2")
+                #    subprocess.run(f"rm ../output/rulehistory.rp", capture_output=True, shell=True, text=True)
+                #if(Path(f"../output/sequence.rp")):
+                #    print("yes3")
+                #    subprocess.run(f"rm ../output/sequence.rp", capture_output=True, shell=True, text=True)
+                
                 time_result = subprocess.run(f"../build/repair < {dataset_path}",capture_output=True,shell=True,text=True)
                 comp_time = "FAILED"
                 rule_history_size = None
@@ -72,6 +79,10 @@ def experiment():
                         comp_time = f"{time_match.group(1)} ms"
 
                 print(f"Profiling bitsize: {filename}: ")
+                #if(Path(f"../output/compressed_cfg.bin")):
+                #    print("yes1")
+                #    subprocess.run(f"rm ../output/compressed_cfg.bin", capture_output=True, shell=True, text=True)
+                
                 bitsize_result = subprocess.run(f"../build/encodeCFG", capture_output=True, shell=True, text=True)
                 file_path = Path(f"../output/compressed_cfg.bin")
                 time_match_bitsize = None

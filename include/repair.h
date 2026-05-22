@@ -172,8 +172,8 @@ inline void Repair::output(bool verbose)
         if(seq[i].code != N)
         c++;
     }
-    this->serialize<TSEQ>("output/sequence.rp", this->seq);
-    this->serialize<vector<st>>("output/rulehistory.rp", this->ruleHistory);
+    this->serialize<TSEQ>("../output/sequence.rp", this->seq);
+    this->serialize<vector<st>>("../output/rulehistory.rp", this->ruleHistory);
     cout << "\n Rule History size: " << ruleHistory.size() << "\n";
     cout << "\n Compressed text size: " << c << "\n";
     

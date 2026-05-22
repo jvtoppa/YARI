@@ -1,0 +1,945 @@
+desc: --massif-out-file=memory_reports/repetitive/massif.out.s1.txt
+cmd: ../build/repair
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2004108
+mem_heap_B=73728
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2016380
+mem_heap_B=78337
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=2092549
+mem_heap_B=79362
+mem_heap_extra_B=62
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=2093544
+mem_heap_B=78849
+mem_heap_extra_B=39
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=2165310
+mem_heap_B=79851
+mem_heap_extra_B=53
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=2194259
+mem_heap_B=119978
+mem_heap_extra_B=606
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=2233796
+mem_heap_B=121138
+mem_heap_extra_B=1038
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=2268494
+mem_heap_B=121138
+mem_heap_extra_B=1038
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=2297621
+mem_heap_B=121138
+mem_heap_extra_B=1038
+mem_stacks_B=0
+heap_tree=detailed
+n4: 121138 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x490F38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 40040 0x10E6A8: std::vector<SEQ, std::allocator<SEQ> >::_M_default_append(unsigned long) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+  n1: 40040 0x10E8AB: Repair::Repair(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+   n0: 40040 0x10A898: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n1: 4096 0x4C721B4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x4C82523: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x4C7F883: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x4C825D1: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x49801C8: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+      n1: 4096 0x492E8B8: long std::__copy_streambufs_eof<char, std::char_traits<char> >(std::basic_streambuf<char, std::char_traits<char> >*, std::basic_streambuf<char, std::char_traits<char> >*, bool&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n1: 4096 0x49AE17C: std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n0: 4096 0x10A95D: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n0: 3274 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=2337816
+mem_heap_B=121106
+mem_heap_extra_B=1038
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=2355365
+mem_heap_B=121138
+mem_heap_extra_B=1038
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=2383176
+mem_heap_B=121106
+mem_heap_extra_B=1038
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=2423405
+mem_heap_B=121138
+mem_heap_extra_B=1038
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=2446085
+mem_heap_B=121138
+mem_heap_extra_B=1038
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=2468765
+mem_heap_B=121138
+mem_heap_extra_B=1038
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=2490843
+mem_heap_B=121274
+mem_heap_extra_B=1110
+mem_stacks_B=0
+heap_tree=detailed
+n4: 121274 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x490F38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 40040 0x10E6A8: std::vector<SEQ, std::allocator<SEQ> >::_M_default_append(unsigned long) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+  n1: 40040 0x10E8AB: Repair::Repair(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+   n0: 40040 0x10A898: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n1: 4096 0x4C721B4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x4C82523: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x4C7F883: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x4C825D1: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x49801C8: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+      n1: 4096 0x492E8B8: long std::__copy_streambufs_eof<char, std::char_traits<char> >(std::basic_streambuf<char, std::char_traits<char> >*, std::basic_streambuf<char, std::char_traits<char> >*, bool&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n1: 4096 0x49AE17C: std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n0: 4096 0x10A95D: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n0: 3410 in 12 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=2525803
+mem_heap_B=121274
+mem_heap_extra_B=1110
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=2543403
+mem_heap_B=121274
+mem_heap_extra_B=1110
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=2571953
+mem_heap_B=121274
+mem_heap_extra_B=1110
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=2609637
+mem_heap_B=121226
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=2630227
+mem_heap_B=121226
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=2661725
+mem_heap_B=121226
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=2684489
+mem_heap_B=121226
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=2719983
+mem_heap_B=121274
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=detailed
+n4: 121274 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x490F38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 40040 0x10E6A8: std::vector<SEQ, std::allocator<SEQ> >::_M_default_append(unsigned long) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+  n1: 40040 0x10E8AB: Repair::Repair(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+   n0: 40040 0x10A898: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n1: 4096 0x4C721B4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x4C82523: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x4C7F883: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x4C825D1: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x49801C8: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+      n1: 4096 0x492E8B8: long std::__copy_streambufs_eof<char, std::char_traits<char> >(std::basic_streambuf<char, std::char_traits<char> >*, std::basic_streambuf<char, std::char_traits<char> >*, bool&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n1: 4096 0x49AE17C: std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n0: 4096 0x10A95D: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n0: 3410 in 12 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=2740278
+mem_heap_B=121274
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=2766197
+mem_heap_B=121274
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=2786412
+mem_heap_B=121250
+mem_heap_extra_B=1046
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=2813972
+mem_heap_B=121330
+mem_heap_extra_B=1078
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=2852213
+mem_heap_B=121330
+mem_heap_extra_B=1078
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=2888019
+mem_heap_B=121234
+mem_heap_extra_B=1046
+mem_stacks_B=0
+heap_tree=detailed
+n4: 121234 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x490F38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 40040 0x10E6A8: std::vector<SEQ, std::allocator<SEQ> >::_M_default_append(unsigned long) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+  n1: 40040 0x10E8AB: Repair::Repair(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+   n0: 40040 0x10A898: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n1: 4096 0x4C721B4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x4C82523: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x4C7F883: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x4C825D1: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x49801C8: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+      n1: 4096 0x492E8B8: long std::__copy_streambufs_eof<char, std::char_traits<char> >(std::basic_streambuf<char, std::char_traits<char> >*, std::basic_streambuf<char, std::char_traits<char> >*, bool&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n1: 4096 0x49AE17C: std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n0: 4096 0x10A95D: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n0: 3370 in 12 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=2908037
+mem_heap_B=121338
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=2944059
+mem_heap_B=121338
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=detailed
+n4: 121338 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x490F38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 40040 0x10E6A8: std::vector<SEQ, std::allocator<SEQ> >::_M_default_append(unsigned long) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+  n1: 40040 0x10E8AB: Repair::Repair(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+   n0: 40040 0x10A898: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n1: 4096 0x4C721B4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x4C82523: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x4C7F883: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x4C825D1: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x49801C8: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+      n1: 4096 0x492E8B8: long std::__copy_streambufs_eof<char, std::char_traits<char> >(std::basic_streambuf<char, std::char_traits<char> >*, std::basic_streambuf<char, std::char_traits<char> >*, bool&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n1: 4096 0x49AE17C: std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n0: 4096 0x10A95D: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n0: 3474 in 12 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=2982316
+mem_heap_B=121338
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=3005353
+mem_heap_B=121394
+mem_heap_extra_B=1078
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=3037396
+mem_heap_B=121394
+mem_heap_extra_B=1078
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=3075014
+mem_heap_B=121394
+mem_heap_extra_B=1078
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=3097911
+mem_heap_B=121370
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=3130065
+mem_heap_B=121370
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=3156771
+mem_heap_B=121370
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=3185605
+mem_heap_B=121370
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=3219339
+mem_heap_B=121314
+mem_heap_extra_B=1046
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=3240215
+mem_heap_B=121314
+mem_heap_extra_B=1046
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=3263289
+mem_heap_B=121314
+mem_heap_extra_B=1046
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=3294879
+mem_heap_B=121474
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=3330706
+mem_heap_B=121474
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=detailed
+n4: 121474 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x490F38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 40040 0x10E6A8: std::vector<SEQ, std::allocator<SEQ> >::_M_default_append(unsigned long) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+  n1: 40040 0x10E8AB: Repair::Repair(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+   n0: 40040 0x10A898: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n1: 4096 0x4C721B4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x4C82523: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x4C7F883: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x4C825D1: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x49801C8: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+      n1: 4096 0x492E8B8: long std::__copy_streambufs_eof<char, std::char_traits<char> >(std::basic_streambuf<char, std::char_traits<char> >*, std::basic_streambuf<char, std::char_traits<char> >*, bool&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n1: 4096 0x49AE17C: std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n0: 4096 0x10A95D: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n0: 3610 in 12 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=3366598
+mem_heap_B=121474
+mem_heap_extra_B=1062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=3406376
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=3441730
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=detailed
+n4: 121426 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x490F38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 40040 0x10E6A8: std::vector<SEQ, std::allocator<SEQ> >::_M_default_append(unsigned long) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+  n1: 40040 0x10E8AB: Repair::Repair(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+   n0: 40040 0x10A898: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n1: 4096 0x4C721B4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x4C82523: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x4C7F883: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x4C825D1: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x49801C8: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+      n1: 4096 0x492E8B8: long std::__copy_streambufs_eof<char, std::char_traits<char> >(std::basic_streambuf<char, std::char_traits<char> >*, std::basic_streambuf<char, std::char_traits<char> >*, bool&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n1: 4096 0x49AE17C: std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n0: 4096 0x10A95D: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n0: 3562 in 12 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=3461639
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=3462744
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=3463849
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=detailed
+n4: 121426 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x490F38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 40040 0x10E6A8: std::vector<SEQ, std::allocator<SEQ> >::_M_default_append(unsigned long) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+  n1: 40040 0x10E8AB: Repair::Repair(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+   n0: 40040 0x10A898: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n1: 4096 0x4C721B4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x4C82523: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x4C7F883: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x4C825D1: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x49801C8: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+      n1: 4096 0x492E8B8: long std::__copy_streambufs_eof<char, std::char_traits<char> >(std::basic_streambuf<char, std::char_traits<char> >*, std::basic_streambuf<char, std::char_traits<char> >*, bool&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n1: 4096 0x49AE17C: std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n0: 4096 0x10A95D: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n0: 3562 in 12 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=3464954
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=3466059
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=3467164
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=3468269
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=3469374
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=3470479
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=3471584
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=3472689
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=3473794
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=3474899
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=detailed
+n4: 121426 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x490F38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 40040 0x10E6A8: std::vector<SEQ, std::allocator<SEQ> >::_M_default_append(unsigned long) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+  n1: 40040 0x10E8AB: Repair::Repair(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+   n0: 40040 0x10A898: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n1: 4096 0x4C721B4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x4C82523: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x4C7F883: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x4C825D1: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x49801C8: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+      n1: 4096 0x492E8B8: long std::__copy_streambufs_eof<char, std::char_traits<char> >(std::basic_streambuf<char, std::char_traits<char> >*, std::basic_streambuf<char, std::char_traits<char> >*, bool&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n1: 4096 0x49AE17C: std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n0: 4096 0x10A95D: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n0: 3562 in 12 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=62
+#-----------
+time=3476004
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=3477109
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=3478214
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=3479319
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=3480424
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=3481529
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=3482634
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=3483739
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=3484845
+mem_heap_B=121426
+mem_heap_extra_B=1030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=3485898
+mem_heap_B=121402
+mem_heap_extra_B=1014
+mem_stacks_B=0
+heap_tree=detailed
+n4: 121402 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x490F38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 40040 0x10E6A8: std::vector<SEQ, std::allocator<SEQ> >::_M_default_append(unsigned long) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+  n1: 40040 0x10E8AB: Repair::Repair(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+   n0: 40040 0x10A898: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n1: 4096 0x4C721B4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x4C82523: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x4C7F883: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x4C825D1: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x49801C8: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+      n1: 4096 0x492E8B8: long std::__copy_streambufs_eof<char, std::char_traits<char> >(std::basic_streambuf<char, std::char_traits<char> >*, std::basic_streambuf<char, std::char_traits<char> >*, bool&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n1: 4096 0x49AE17C: std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n0: 4096 0x10A95D: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n0: 3538 in 12 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=72
+#-----------
+time=3487029
+mem_heap_B=121306
+mem_heap_extra_B=966
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=3488120
+mem_heap_B=121210
+mem_heap_extra_B=934
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=3489158
+mem_heap_B=121114
+mem_heap_extra_B=902
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=3490332
+mem_heap_B=121090
+mem_heap_extra_B=886
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=3491563
+mem_heap_B=121066
+mem_heap_extra_B=870
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=3497358
+mem_heap_B=121168
+mem_heap_extra_B=920
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=3501629
+mem_heap_B=121640
+mem_heap_extra_B=936
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=3503173
+mem_heap_B=129832
+mem_heap_extra_B=944
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=3533158
+mem_heap_B=129832
+mem_heap_extra_B=944
+mem_stacks_B=0
+heap_tree=peak
+n5: 129832 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x490F38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 40040 0x10E6A8: std::vector<SEQ, std::allocator<SEQ> >::_M_default_append(unsigned long) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+  n1: 40040 0x10E8AB: Repair::Repair(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+   n0: 40040 0x10A898: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n1: 8192 0x4982BC3: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 8192 0x4986F46: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+   n1: 8192 0x10EEE6: Repair::output(bool) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+    n0: 8192 0x10A8D5: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n1: 4096 0x4C721B4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x4C82523: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x4C7F883: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x4C825D1: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x49801C8: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+      n1: 4096 0x492E8B8: long std::__copy_streambufs_eof<char, std::char_traits<char> >(std::basic_streambuf<char, std::char_traits<char> >*, std::basic_streambuf<char, std::char_traits<char> >*, bool&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n1: 4096 0x49AE17C: std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n0: 4096 0x10A95D: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+ n0: 3776 in 14 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=81
+#-----------
+time=3535230
+mem_heap_B=121168
+mem_heap_extra_B=920
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=3536711
+mem_heap_B=129835
+mem_heap_extra_B=941
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=3541435
+mem_heap_B=121643
+mem_heap_extra_B=933
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=3543150
+mem_heap_B=125242
+mem_heap_extra_B=910
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=3554975
+mem_heap_B=125186
+mem_heap_extra_B=894
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=3555998
+mem_heap_B=124122
+mem_heap_extra_B=614
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=3557053
+mem_heap_B=83618
+mem_heap_extra_B=342
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=3558090
+mem_heap_B=83210
+mem_heap_extra_B=70
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=3570996
+mem_heap_B=8192
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=3572038
+mem_heap_B=4096
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=detailed
+n2: 4096 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x4C721B4: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 4096 0x4C82523: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x4C7FF8F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 4096 0x4C80AAE: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 4096 0x4C80AAE: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 4096 0x4C73A11: fwrite (iofwrite.c:39)
+       n1: 4096 0x49AEDC3: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n1: 4096 0x10F204: Repair::output(bool) (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+         n0: 4096 0x10A8D5: main (in /mnt/c/Users/devacc/Documents/YARI/build/repair)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 0 in 18 places, all below massif's threshold (1.00%)

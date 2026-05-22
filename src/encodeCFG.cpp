@@ -137,7 +137,7 @@ int main()
     cout << "Processed: " << seq.size() << "\n";
     cout << "Time taken: " << time.count() << "\n";
     
-    CFG::writeToDisk(bitString, "output/compressed_cfg.bin");
+    CFG::writeToDisk(bitString, "../output/compressed_cfg.bin");
 
     return 0;
 }
