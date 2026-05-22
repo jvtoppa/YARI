@@ -40,7 +40,7 @@ int main(int argc, char* argv[]) {
     repair.run(false,false);
     auto end2 = chrono::high_resolution_clock::now();
     chrono::duration<double, milli> time2 = end2 - start;
-    //repair.output(false);
+    repair.output(false);
 	//cout << "Encoding...\n";
     cout << time2.count() << "ms";
 

@@ -6,7 +6,7 @@
 #include <unordered_set>
 #include <vector>
 #include <cstdint>
-
+#include <chrono>
 typedef size_t GrammarUnit; 
 typedef std::vector<GrammarUnit> UnitVector; 
 
@@ -86,7 +86,7 @@ namespace CFG
 
     UnitVector read_sequence(bool verbose = false)
     {
-        ifstream file("output/sequence.rp", ios::binary);
+        ifstream file("../output/sequence.rp", ios::binary);
         size_t val;
         UnitVector read;
 
@@ -103,7 +103,7 @@ namespace CFG
 
     UnitVector read_rulehistory()
     {
-        ifstream file("output/rulehistory.rp", ios::binary);
+        ifstream file("../output/rulehistory.rp", ios::binary);
         size_t val;
         UnitVector read;
         while (file.read(reinterpret_cast<char*>(&val), sizeof(size_t)))
@@ -127,13 +127,16 @@ int main()
     string bitString = "";
     GrammarUnit rulesEncoded = 256; 
     unordered_set<GrammarUnit> seen;
-
+    auto start = chrono::high_resolution_clock::now();
     for (GrammarUnit& sy : seq)
     {
         CFG::encodeCFG_rec(sy, rulehistory, bitString, rulesEncoded, seen);
     }
-   
-    cout << "Processed " << seq.size() << " sequence symbols." << endl;
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration<double, milli> time = end - start;
+    cout << "Processed: " << seq.size() << "\n";
+    cout << "Time taken: " << time.count() << "\n";
+    
     CFG::writeToDisk(bitString, "output/compressed_cfg.bin");
 
     return 0;
